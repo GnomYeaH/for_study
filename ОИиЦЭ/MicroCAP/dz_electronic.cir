@@ -7,12 +7,8 @@ Shape Version=11.00
 Screen=2560,1440
 MCAPVersion=12.2.0.4
 Key ID=Demo
-NLCnt=114
+NLCnt=117
 TXCnt=0
-
-[shapedef]
-Name=And2
-Root="And.root",0,0,0
 
 [shapedef]
 Name=And3
@@ -28,21 +24,6 @@ Line=27,20,9,20
 Line=9,-4,27,-4
 Line=40,8,48,8
 Arc=12,-4,40,20 , 28,32,28,-16
-
-[shapedef]
-Name=Inv
-Root="Inv.root",0,0,0
-
-[shapedef]
-Name=Inv.root
-Line=8,-16,8,16
-Line=8,-16,40,0
-Line=8,16,40,0
-Line=0,0,8,0
-Ellipse=40,-2,44,2
-FColor=None
-Line=44,0,47,0
-Line=46,0,48,0
 
 [shapedef]
 Name=Nand2
@@ -86,21 +67,6 @@ Ellipse=42,6,46,10
 FColor=None
 Line=46,8,48,8
 Arc=0,-4,12,20 , 6,20,6,-4
-
-[shapedef]
-Name=Or2
-Root="Or.root",0,0,0
-
-[shapedef]
-Name=Or.root
-Line=42,8,48,8
-Line=0,0,10,0
-Line=0,16,10,16
-Line=24,-4,6,-4
-Line=6,20,24,20
-Arc=5,-4,43,34 , 42,8,24,-4
-Arc=0,-4,12,20 , 6,20,6,-4
-Arc=5,-18,43,20 , 24,20,42,8
 
 [shapedef]
 Name=StimClock
@@ -147,52 +113,11 @@ Pin="In2",0,2,-7,16
 Pin="Out",6,1,-8,-2
 
 [compdef]
-Name=Inverter
-Definition=INV
-Shape=Inv
-Mask=4611
-Used=3
-Data1=1
-memo=Generic Inverter Gate
-Label Offset=12,-6,11,21
-PinCnt=2
-Pin="In",0,0,-4,-2
-Pin="Out",6,0,-10,-2
-
-[compdef]
-Name=Or2
-Definition=OR
-Shape=Or2
-Mask=4099
-Used=2
-Data1=2
-memo=2 Input Generic OR Gate
-Label Offset=15,4,7,10
-PinCnt=3
-Pin="In0",0,0,-6,-3
-Pin="In1",0,2,-6,-2
-Pin="Out",6,1,-7,-1
-
-[compdef]
-Name=And2
-Definition=AND
-Shape=And2
-Mask=4867
-Used=2
-Data1=2
-memo=2 Input Generic AND Gate
-Label Offset=12,21,8,8
-PinCnt=3
-Pin="In0",0,0,-6,-1
-Pin="In1",0,2,-6,-1
-Pin="Out",6,1,-7,-1
-
-[compdef]
 Name=Nor2
 Definition=NOR
 Shape=Nor2
 Mask=4096
-Used=4
+Used=7
 Data1=2
 memo=2 Input Generic NOR Gate
 Label Offset=16,4,8,10
@@ -258,7 +183,7 @@ PinCnt=1
 Pin="Out",d,9,0
 
 [Circuit]
-Window Placement=2,3, -1,-1, -8,-31, 0,0,1824,1072
+Window Placement=2,3, -1,-1, -8,-31, 0,0,1824,982
 Default Object=Color=#000080
 Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Default Object Apply Border To Text=No
@@ -322,171 +247,20 @@ V=$G_DGND
 ON=0,0,PACKAGE
 V
 
-[Comp]
-Name=Inverter
-Px=1000,464
-Rot=4
-
-[Attr]
-ON=10,-7,PART
-V=U2
-Style=8192
-
-[Attr]
-ON=-20,-22,TIMING MODEL
-V=0
-
-[Attr]
-ON=-59,-36,I/O MODEL
-V=IO_STD
-
-[Attr]
-ON=-20,-50,MNTYMXDLY
-V=0
-
-[Attr]
-ON=-20,-64,IO_LEVEL
-V=0
-
-[Attr]
-ON=-76,-78,POWER NODE
-V=$G_DPWR
-
-[Attr]
-ON=-73,-92,GROUND NODE
-V=$G_DGND
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Inverter
-Px=1000,504
-Rot=4
-
-[Attr]
-ON=11,-7,PART
-V=U3
-Style=8192
-
-[Attr]
-ON=-20,-22,TIMING MODEL
-V=0
-
-[Attr]
-ON=-59,-36,I/O MODEL
-V=IO_STD
-
-[Attr]
-ON=-20,-50,MNTYMXDLY
-V=0
-
-[Attr]
-ON=-20,-64,IO_LEVEL
-V=0
-
-[Attr]
-ON=-76,-78,POWER NODE
-V=$G_DPWR
-
-[Attr]
-ON=-73,-92,GROUND NODE
-V=$G_DGND
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Or2
-Px=1136,440
-
-[Attr]
-ON=16,1,PART
-V=U5
-Style=8192
-
-[Attr]
-ON=15,18,TIMING MODEL
-V=0
-
-[Attr]
-ON=15,32,I/O MODEL
-V=IO_STD
-
-[Attr]
-ON=15,46,MNTYMXDLY
-V=0
-
-[Attr]
-ON=15,60,IO_LEVEL
-V=0
-
-[Attr]
-ON=15,74,POWER NODE
-V=$G_DPWR
-
-[Attr]
-ON=15,88,GROUND NODE
-V=$G_DGND
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
 [Wire]
 Pxs=1048,480,1064,480
 
 [Wire]
-Pxs=1048,464,1048,480
+Pxs=1000,464,1048,480
 
 [Wire]
 Pxs=1112,408,1128,408
-
-[Comp]
-Name=And2
-Px=1064,496
-Rot=4
-
-[Attr]
-ON=16,-15,PART
-V=U6
-Style=8192
-
-[Attr]
-ON=-16,-36,TIMING MODEL
-V=0
-
-[Attr]
-ON=-55,-50,I/O MODEL
-V=IO_STD
-
-[Attr]
-ON=-16,-64,MNTYMXDLY
-V=0
-
-[Attr]
-ON=-16,-78,IO_LEVEL
-V=0
-
-[Attr]
-ON=-72,-92,POWER NODE
-V=$G_DPWR
-
-[Attr]
-ON=-69,-106,GROUND NODE
-V=$G_DGND
-
-[Attr]
-ON=0,0,PACKAGE
-V
 
 [Wire]
 Pxs=1048,496,1064,496
 
 [Wire]
-Pxs=1048,496,1048,504
+Pxs=1048,496,1000,504
 
 [Wire]
 Pxs=1128,408,1128,440
@@ -1278,6 +1052,129 @@ Pxs=760,552,936,552
 [Wire]
 Pxs=760,752,760,1048
 
+[Comp]
+Name=Nor2
+Px=1064,480
+
+[Attr]
+ON=16,1,PART
+V=U19
+Style=8192
+
+[Attr]
+ON=16,18,TIMING MODEL
+V=0
+
+[Attr]
+ON=16,32,I/O MODEL
+V=IO_STD
+
+[Attr]
+ON=16,46,MNTYMXDLY
+V=0
+
+[Attr]
+ON=16,60,IO_LEVEL
+V=0
+
+[Attr]
+ON=16,74,POWER NODE
+V=$G_DPWR
+
+[Attr]
+ON=16,88,GROUND NODE
+V=$G_DGND
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Comp]
+Name=Nor2
+Px=1136,440
+
+[Attr]
+ON=16,1,PART
+V=U20
+Style=8192
+
+[Attr]
+ON=16,18,TIMING MODEL
+V=0
+
+[Attr]
+ON=16,32,I/O MODEL
+V=IO_STD
+
+[Attr]
+ON=16,46,MNTYMXDLY
+V=0
+
+[Attr]
+ON=16,60,IO_LEVEL
+V=0
+
+[Attr]
+ON=16,74,POWER NODE
+V=$G_DPWR
+
+[Attr]
+ON=16,88,GROUND NODE
+V=$G_DGND
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Comp]
+Name=Nor2
+Px=1200,440
+
+[Attr]
+ON=16,1,PART
+V=U21
+Style=8192
+
+[Attr]
+ON=16,18,TIMING MODEL
+V=0
+
+[Attr]
+ON=16,32,I/O MODEL
+V=IO_STD
+
+[Attr]
+ON=16,46,MNTYMXDLY
+V=0
+
+[Attr]
+ON=16,60,IO_LEVEL
+V=0
+
+[Attr]
+ON=16,74,POWER NODE
+V=$G_DPWR
+
+[Attr]
+ON=16,88,GROUND NODE
+V=$G_DGND
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Wire]
+Pxs=1184,440,1200,440
+
+[Wire]
+Pxs=1184,440,1184,448
+
+[Wire]
+Pxs=1184,448,1184,456
+
+[Wire]
+Pxs=1184,456,1200,456
+
 [Schematic]
 CurrentSection 0=0
 CurrentSection 1=0
@@ -1474,9 +1371,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=201,303
+SB 3=390,262
 Scale 3=0.66666666666666663
-Px=568,350
+Px=1709,568
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1917,7 +1814,7 @@ Analysis=Transient
 Plt=1
 AliasID=5
 XExp=T
-YExp=d(8)
+YExp=d(19)
 XRng=0.008
 YRng=Auto
 Options=LINEARX,LINEARY
@@ -1942,7 +1839,7 @@ Analysis=Transient
 Plt=1
 AliasID=2
 XExp=T
-YExp=d(15)
+YExp=d(11)
 XRng=0.008
 YRng=Auto
 Options=LINEARX,LINEARY
@@ -1967,7 +1864,7 @@ Analysis=Transient
 Plt=1
 AliasID=6
 XExp=T
-YExp=d(20)
+YExp=d(16)
 XRng=0.008
 YRng=Auto
 Options=LINEARX,LINEARY
