@@ -1,0 +1,41 @@
+:Base K580BM80.HLP
+1 Добро пожаловать=hc_Dobro_pozhalovat
+1 Общие принципы работы с моделью=hc_Obschie_printsipy_raboty_s_modelyu
+1 Описание программной модели
+2 Рабочее окно модели
+3 Главное окно модели=hc_Glavnoe_okno_modeli
+3 Панель инструментов=hc_Panel_instrumentov
+3 Строка состояния=hc_Stroka_sostoyaniya
+3 Основное меню
+4 Меню модели=hc_Menyu_modeli
+4 Подменю
+5 Файл=hc_Fayl
+5 Просмотр=hc_Prosmotr
+5 Пуск=hc_Pusk
+5 Отладка=hc_Otladka
+5 Настройки=hc_Nastroyki
+5 Окно=hc_Okno
+5 Помощь=hc_Pomosch
+3 Секции главного меню
+4 Машинные коды
+5 Секция машинных кодов=hc_Sektsiya_mashinnyh_kodov
+5 Меню секции машинных кодов=hc_Menyu_sektsii_mashinnyh_kodov
+4 Мнемокоды
+5 Секция мнемокодов=hc_Sektsiya_mnemokodov
+5 Меню секции мнемокодов=hc_Menyu_sektsii_mnemokodov
+4 Сообщения
+5 Секция сообщений=hc_Sektsiya_soobscheniy
+5 Меню секции сообщений=hc_Menyu_sektsii_soobscheniy
+5 Сообщения об ошибках=hc_Soobscheniya_ob_oshibkah
+2 Дополнительные окна модели
+3 Регистры и флаги=hc_Registry_i_flagi
+3 ОЗУ стенда=hc_OZU_stenda
+3 Стек=hc_Stek
+3 Порты=hc_Porty
+3 Средства стенда=hc_Sredstva_stenda
+3 Редактор ОЗУ=hc_Redaktor_OZU
+1 Краткое описание стенда УМПК-80
+2 Стенд УМПК-80=hc_Stend_UMPK_80
+2 Микропроцессор К580ВМ80=hc_Mikroprotsessor_K580VM80
+2 Система команд МП К580ВМ80
+3 Таблица команд=hc_Tablitsa_komand
