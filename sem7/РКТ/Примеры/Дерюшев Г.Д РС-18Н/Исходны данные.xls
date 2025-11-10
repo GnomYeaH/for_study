@@ -1,0 +1,1037 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:u1="urn:schemas-    microsoft-com:office:excel">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>глеб дерюшев</LastAuthor>
+  <LastSaved>2024-12-01T16:11:11Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8676</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+    ss:Bold="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s66">
+   <NumberFormat ss:Format="0.0000"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+    ss:Bold="1"/>
+   <NumberFormat ss:Format="0.0000"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Bold="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Result">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="105" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.8">
+   <Column ss:Width="189.6"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.400000000000006"
+    ss:Span="2"/>
+   <Column ss:Index="5" ss:StyleID="s62" ss:Width="68.399999999999991"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.400000000000006"
+    ss:Span="1"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Параметры</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">3</Data></Cell>
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Исходные данные</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Дальность                  (км)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Масса полезного груза      (кг)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2800</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2800</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2800</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2800</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2800</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2800</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Соотношение масс ступеней</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.25</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.35</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Число блоков ГО</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Специальный полезный груз</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Маневрирующий блок ГО</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Отдельный приборный отсек</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Горячее разделение ступеней</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Сбрасывание переходного отсека</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Нормальная длинна хвостового отсека</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Стабилизаторы</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Данные по первой ступени</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Плотнотсь горючего         (кг/куб.м)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">790</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">790</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">790</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">790</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">790</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">790</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Плотность окислителя       (кг/куб.м)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1440</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1440</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Стехиометрическое соотношение</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.07</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.07</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.07</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.07</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.07</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.07</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Коэф. избытка окислителя</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.95</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.95</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.95</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.95</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.95</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.95</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Давление в камере сгорания (МПа)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Давление в выходном сечении(МПа)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.06</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.06</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.06</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.06</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.06</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.06</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Расходный комплекс         (сек)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">174.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">174.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">174.5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">174.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">174.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">174.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Показатель изоэнтропы</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.155</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.155</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.155</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.155</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.155</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.155</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Число двигателей в ДУ</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Давление наддува бака А    (МПа)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Давление наддува бака Б    (МПа)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Вылет днищ баков</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Закрытая схема ДУ</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Управление газовыми рулями</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Межбаковый отсек</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Наддув горячим газом</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Окислитель в баке А</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Данные по второй ступени</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Плотнотсь горючего         (кг/куб.м)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">790</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">790</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">790</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">790</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">790</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">790</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Плотность окислителя       (кг/куб.м)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1440</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1440</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Стехиометрическое соотношение</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.07</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.07</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.07</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.07</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.07</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.07</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Коэф. избытка окислителя</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.95</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.95</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.95</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.95</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.95</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.95</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Давление в камере сгорания (МПа)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Давление в выходном сечении(МПа)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Расходный комплекс         (сек)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">174.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">174.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">174.5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">174.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">174.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">174.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Показатель изоэнтропы</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.1719999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.1719999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.1719999999999999</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.1719999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.1719999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.1719999999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Число двигателей в ДУ</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Давление наддува бака А    (МПа)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Давление наддува бака Б    (МПа)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Вылет днищ баков</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Закрытая схема ДУ</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Управление газовыми рулями</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Межбаковый отсек</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Наддув горячим газом</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Окислитель в баке А</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Проектные параметры</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Масса стартовая            (кг)    M0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">136501.79999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">122504.7</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">118049</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">114083.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">116124.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">121358</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Масса 2-й ст.              (кг)    M2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20475.3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">24500.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">29512.2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">34225.199999999997</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">40643.599999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">48543.199999999997</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Масса конечная             (кг)    Mк</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6322.2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6303.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6527.7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">6613.3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7032.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7481</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Масса головного отсека     (кг)    Mг</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4473.3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4169.6000000000004</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4050.5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3780</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3780</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3780</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Отн. кон. масса 1-й ст.            Muк1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.23200000000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.28100000000000003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.33100000000000002</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.38</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.42699999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.47299999999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Отн. кон. масса 2-й ст.            Muк2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.309</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.25700000000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.221</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.193</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.17299999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.154</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Тяга нулевая               (Кн)    P0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2520.1999999999998</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2348.6999999999998</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2314</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2274.8000000000002</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2281</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2331.6999999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Тяга пустотная 1-й ст.     (Кн)    Pп1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2791.7</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2601.6999999999998</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2563.3000000000002</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2519.8000000000002</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2526.6999999999998</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2582.9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Тяга пустотная 2-й ст.     (Кн)    Pп2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">502</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">600.70000000000005</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">723.6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">839.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">996.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1106.3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Нагрузка на тягу 1-й ст.           Nu0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.53100000000000003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.51200000000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.49199999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.499</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.51</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Нагрузка на тягу 2-й ст.           Nuп</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.43</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Параметры активного участка</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Разделение ступеней</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cкорость                   (м/сек) Vкс</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3450.2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2914.3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2474.4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2083.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1762.8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1461</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Угол траектории            (град.) Teta</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">38.630000000000003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">41.62</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">44.2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">46.69</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">48.47</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">51.73</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Координата                 (км)    Xкс</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">82.4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">61.4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">46.4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">34.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">26.8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">19.600000000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Координата                 (км)    Yкс</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">97.8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">81.400000000000006</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">67.7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">55.2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">45.8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">37.799999999999997</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Время работы 1-ст.         (сек)   Tкс</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">116.4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">104.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">95.5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">87</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">81.599999999999994</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">76.7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Конец активного участка</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cкорость                   (м/сек) Vк</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6877.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6893</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6911.9</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">6931.7</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6949.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6951.9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Угол траектории            (град.) Teta</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">22.43</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">22.44</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">22.43</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">22.43</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">22.43</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">22.43</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Координата                 (км)    Xк</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">481.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">452.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">423.7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">394.7</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">370.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">367.8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Координата                 (км)    Yк</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">278.7</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">266</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">251.2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">234.8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">219.7</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">217.7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Время активного участка    (сек)   Tк</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">208.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">203.8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">199.3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">194.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">191.8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">197.9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Габаритные размеры         (м)</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Диаметр 1-й ст.                    Dm1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.7</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Диаметр 2-й ст.                    Dm2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.2000000000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина ракеты                       lр</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">35.106999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">31.928999999999998</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">31.016999999999999</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">27.192</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">28.536999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">27.695</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина 2-й ст.                      l2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">16.706</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15.147</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15.773</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">13.355</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15.414</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">15.003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина ГО                           lго</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6.1219999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.6870000000000003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.1520000000000001</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.4790000000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина ПО                           lпо</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.68600000000000005</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.63100000000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.61499999999999999</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.59899999999999998</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.59899999999999998</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.60399999999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина бака А 2-й ст.               lа2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.839</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.5720000000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.0720000000000001</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.0590000000000002</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.1120000000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.9790000000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина МБО 2-й ст.                  lмб2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина бака Б 2-й ст.               lб2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.34</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.2829999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.669</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.1829999999999998</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.8730000000000002</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.9039999999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина ПХО                          lпхо</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.7189999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.9740000000000002</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.2639999999999998</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.5150000000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.831</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.0359999999999996</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина бака А 1-й ст.               lа1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">8.2319999999999993</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7.359</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6.4340000000000002</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5.5880000000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5.157</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.8890000000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина МБО 1-й ст.                  lмб1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина бака Б 1-й ст.               lб1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6.569</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5.9530000000000003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5.3470000000000004</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4.7939999999999996</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.5110000000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.3360000000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Длина ХО                           lхо</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.601</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.47</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.4630000000000001</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.4540000000000002</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.4550000000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.4660000000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Параметры ДУ</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Первая ступень</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Уд.импульс нулевой                 Pуд0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2796.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2796.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2796.6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2796.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2796.6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2796.6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Уд.импульс пуст.                   Pудп</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3097.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3097.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3097.9</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3097.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3097.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3097.9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Время работы ДУ                    tк1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">116.4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">104.9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">95.5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">87</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">81.599999999999994</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">76.7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Площадь кр. сечений                Fкр</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9.8790000000000003E-2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9.7320000000000004E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">9.5680000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9.5939999999999998E-2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9.8070000000000004E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Площадь среза сопел                Fa</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.98264</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.7796500000000002</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.73855</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2.6921599999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.6995200000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.7595399999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Диаметр кр.сеч.сопла               Dкр</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.18368999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.17732999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.17601</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.17451</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.17474999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.17668</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Диаметр среза сопла                Da</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.97436999999999996</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.94062999999999997</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.93364999999999998</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.92571000000000003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.92698000000000003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.93722000000000005</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Вторая ступень</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Уд.импульс пуст.                   Pудп</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3267.3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3267.3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3267.3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3267.3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3267.3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3267.3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Время работы ДУ                    tк1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">92.1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">103.8</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">107.5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">110.2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">121.3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Площадь кр. сечений                Fкр</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.8069999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.163E-2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.605E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.0210000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.5869999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.9829999999999997E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Площадь среза сопел                Fa</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.0517599999999998</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.4551699999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.9573299999999998</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.4296000000000002</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.0727700000000002</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.5216099999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Диаметр кр.сеч.сопла               Dкр</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.10725999999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.11734</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.12878000000000001</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.13868</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.15112</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.15923000000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Диаметр среза сопла                Da</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.14289</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.2502</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.3721099999999999</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4776199999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.61022</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.6966300000000001</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>69</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>103</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
