@@ -31,13 +31,6 @@ MARKER / 48
 , REULER = 0 , 0 , 0
  
  
-!                         RecurDyn_Data_Name='G001_jfloat'
-MARKER / 65
-, PART = 2
-, FLOATING
-, UPDATEPOSITION
- 
- 
 !====================================== DummyBody@RecurDyn_Model========================================
 !
 !                         RecurDyn_Data_Name='RecurDyn_SDK_MotherBody'
@@ -78,6 +71,13 @@ MARKER / 21
 , PART = 3
 , QP = 2000 , 2000 , 5
 , REULER = 0 , 0 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='G001_jfloat'
+MARKER / 65
+, PART = 3
+, FLOATING
+, UPDATEPOSITION
  
  
 !======================================== Body ========================================

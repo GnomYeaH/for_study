@@ -23,6 +23,20 @@ MARKER / 437
 , REULER = 0 , 0 , 0
  
  
+!                         RecurDyn_Data_Name='G001_jfloat'
+MARKER / 315
+, PART = 2
+, FLOATING
+, UPDATEPOSITION
+ 
+ 
+!                         RecurDyn_Data_Name='G002_jfloat'
+MARKER / 607
+, PART = 2
+, FLOATING
+, UPDATEPOSITION
+ 
+ 
 !====================================== DummyBody@RecurDyn_Model========================================
 !
 !                         RecurDyn_Data_Name='RecurDyn_SDK_MotherBody'
@@ -99,12 +113,20 @@ MARKER / 16
 , NAME = 'BASE_PLATE.BASE_PLATE_cm'
 , PART = 12
 , QP = 1.947e-005 , 2.215e-005 , 2.73723584
-, REULER = 2.79420302853977 , 1.5707962035649 , 1.57079627848157
+, REULER = 2.79420302857138 , 1.5707962035649 , 1.57079627848157
  
  
 !                         RecurDyn_Data_Name='BASE_PLATE_orig'
 MARKER / 13
 , NAME = 'BASE_PLATE.BASE_PLATE_orig'
+, PART = 12
+, QP = 0 , 0 , 0
+, REULER = 0 , 0 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='A002'
+MARKER / 625
+, NAME = 'BASE_PLATE.A002'
 , PART = 12
 , QP = 0 , 0 , 0
 , REULER = 0 , 0 , 0
@@ -183,35 +205,35 @@ MARKER / 436
  
  
 !                         RecurDyn_Data_Name='S001_j'
-MARKER / 455
+MARKER / 495
 , NAME = 'BASE_PLATE.S001_j'
 , PART = 12
-, QP = -45 , 0 , 6
-, REULER = -2.82516419160316 , 3.14091777477356 , 0.316428529332407
+, QP = 9.18485099360515e-015 , -50 , 5
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
  
  
 !                         RecurDyn_Data_Name='S002_j'
-MARKER / 472
+MARKER / 461
 , NAME = 'BASE_PLATE.S002_j'
 , PART = 12
-, QP = 0.0529975153200454 , -44.8504661929632 , 6
-, REULER = 1.5707963267949 , 3.14082457380866 , -1.5707963267949
+, QP = -1.53080849893419e-014 , 50 , 5
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
  
  
 !                         RecurDyn_Data_Name='S003_j'
-MARKER / 489
+MARKER / 512
 , NAME = 'BASE_PLATE.S003_j'
 , PART = 12
-, QP = 44.9710193105329 , -0.0885094881326668 , 6
-, REULER = -0.316428461986615 , 3.14091777477356 , 2.82516412425741
+, QP = 50 , 6.12323399573677e-015 , 5
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
  
  
 !                         RecurDyn_Data_Name='S004_j'
-MARKER / 506
+MARKER / 467
 , NAME = 'BASE_PLATE.S004_j'
 , PART = 12
-, QP = 0.228097034076033 , 45.2258220631912 , 6
-, REULER = 1.5707963267949 , 3.13828691151444 , -1.5707963267949
+, QP = -50 , -1.22464679914735e-014 , 5
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
  
  
 !======================================== Body ========================================
@@ -411,18 +433,18 @@ MARKER / 230
  
  
 !                         RecurDyn_Data_Name='J008_j'
-MARKER / 300
+MARKER / 613
 , NAME = 'HOOK_JOINT_3.J008_j'
 , PART = 48
-, QP = -30 , -4.99999999999999 , 20
+, QP = -30 , 0 , 20
 , REULER = 3.14159265358979 , 1.5707963267949 , -1.5707963267949
  
  
 !                         RecurDyn_Data_Name='J008_j_tmp'
-MARKER / 307
+MARKER / 631
 , NAME = 'HOOK_JOINT_3.J008_j_tmp'
 , PART = 48
-, QP = -30 , -4.99999999999999 , 20
+, QP = -30 , 0 , 20
 , REULER = 3.14159265358979 , 1.5707963267949 , -1.5707963267949
  
  
@@ -534,59 +556,6 @@ MARKER / 353
  
 !======================================== Body ========================================
 !
-!                         RecurDyn_Data_Name='LINK_3'
-PART / 75
-, NAME = 'LINK_3'
-, MASS = 0.07397795204
-, CM = 79
-, IP = 121.87978 , 117.44279 , 7.40396
-, 0 , 0 , 0
-, QG = 0 , 0 , 0
-, REULER = 0 , 0 , 0
- 
- 
-!                         RecurDyn_Data_Name='LINK_3_cm'
-MARKER / 79
-, NAME = 'LINK_3.LINK_3_cm'
-, PART = 75
-, QP = 1.62052357 , 15.19482564 , 76.90162784
-, REULER = 1.56452028091189 , 0.630143108292455 , -1.57189681846677
- 
- 
-!                         RecurDyn_Data_Name='LINK_3_orig'
-MARKER / 76
-, NAME = 'LINK_3.LINK_3_orig'
-, PART = 75
-, QP = 0 , 0 , 0
-, REULER = 0 , 0 , 0
- 
- 
-!                         RecurDyn_Data_Name='J008_i'
-MARKER / 299
-, NAME = 'LINK_3.J008_i'
-, PART = 75
-, QP = -30 , -4.99999999999999 , 20
-, REULER = 3.14159265358979 , 1.5707963267949 , -1.5707963267949
- 
- 
-!                         RecurDyn_Data_Name='J009_j'
-MARKER / 323
-, NAME = 'LINK_3.J009_j'
-, PART = 75
-, QP = 30 , 2.5 , 130
-, REULER = 0 , 1.5707963267949 , 1.5707963267949
- 
- 
-!                         RecurDyn_Data_Name='J009_j_tmp'
-MARKER / 330
-, NAME = 'LINK_3.J009_j_tmp'
-, PART = 75
-, QP = 30 , 2.5 , 130
-, REULER = 0 , 1.5707963267949 , 1.5707963267949
- 
- 
-!======================================== Body ========================================
-!
 !                         RecurDyn_Data_Name='HOOK_JOINT_4'
 PART / 84
 , NAME = 'HOOK_JOINT_4'
@@ -614,14 +583,6 @@ MARKER / 85
 , REULER = 0 , 0 , 0
  
  
-!                         RecurDyn_Data_Name='J009_i'
-MARKER / 322
-, NAME = 'HOOK_JOINT_4.J009_i'
-, PART = 84
-, QP = 30 , 2.5 , 130
-, REULER = 0 , 1.5707963267949 , 1.5707963267949
- 
- 
 !                         RecurDyn_Data_Name='J017_j'
 MARKER / 569
 , NAME = 'HOOK_JOINT_4.J017_j'
@@ -636,6 +597,14 @@ MARKER / 576
 , PART = 84
 , QP = 27.5 , 3.5527136788005e-015 , 140
 , REULER = 1.5707963267949 , 1.5707963267949 , -1.5707963267949
+ 
+ 
+!                         RecurDyn_Data_Name='J009_i'
+MARKER / 588
+, NAME = 'HOOK_JOINT_4.J009_i'
+, PART = 84
+, QP = 30 , 2.50000000000001 , 130
+, REULER = 0 , 1.5707963267949 , 1.5707963267949
  
  
 !======================================== Body ========================================
@@ -815,7 +784,7 @@ MARKER / 124
 , NAME = 'MOVING_PLATE.MOVING_PLATE_cm'
 , PART = 120
 , QP = -1.947e-005 , 2.215e-005 , 147.26276416
-, REULER = -2.79420302853977 , 1.57079645002489 , 1.57079627848157
+, REULER = -2.79420302851756 , 1.57079645002489 , 1.57079627848157
  
  
 !                         RecurDyn_Data_Name='MOVING_PLATE_orig'
@@ -823,6 +792,14 @@ MARKER / 121
 , NAME = 'MOVING_PLATE.MOVING_PLATE_orig'
 , PART = 120
 , QP = 0 , 0 , 0
+, REULER = 0 , 0 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='A001'
+MARKER / 335
+, NAME = 'MOVING_PLATE.A001'
+, PART = 120
+, QP = 1.18308141061618e-015 , 3.5527136788005e-015 , 150
 , REULER = 0 , 0 , 0
  
  
@@ -859,35 +836,104 @@ MARKER / 568
  
  
 !                         RecurDyn_Data_Name='S001_i'
-MARKER / 454
+MARKER / 494
 , NAME = 'MOVING_PLATE.S001_i'
 , PART = 120
-, QP = -44.9710193105329 , -0.0885094881326632 , 144
-, REULER = -2.82516419160316 , 3.14091777477356 , 0.316428529332407
+, QP = -8.00176958298897e-015 , -50 , 145
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
  
  
 !                         RecurDyn_Data_Name='S002_i'
-MARKER / 471
+MARKER / 460
 , NAME = 'MOVING_PLATE.S002_i'
 , PART = 120
-, QP = -0.0529975153200442 , -44.8504661929632 , 144
-, REULER = 1.5707963267949 , 3.14082457380866 , -1.5707963267949
+, QP = 1.64911663999581e-014 , 50 , 145
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
  
  
 !                         RecurDyn_Data_Name='S003_i'
-MARKER / 488
+MARKER / 511
 , NAME = 'MOVING_PLATE.S003_i'
 , PART = 120
-, QP = 45 , 3.5527136788005e-015 , 144
-, REULER = -0.316428461986615 , 3.14091777477356 , 2.82516412425741
+, QP = 50 , -8.69375431267303e-015 , 145
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
  
  
 !                         RecurDyn_Data_Name='S004_i'
-MARKER / 505
+MARKER / 466
 , NAME = 'MOVING_PLATE.S004_i'
 , PART = 120
-, QP = -0.228097034076031 , 45.2258220631912 , 144
-, REULER = 1.5707963267949 , 3.13828691151444 , -1.5707963267949
+, QP = -50 , 9.67594767453727e-015 , 145
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='G001_i'
+MARKER / 314
+, NAME = 'MOVING_PLATE.G001_i'
+, PART = 120
+, QP = -8.00176958298897e-015 , -50 , 150
+, REULER = 0 , 0 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='G002_i'
+MARKER / 606
+, NAME = 'MOVING_PLATE.G002_i'
+, PART = 120
+, QP = -50 , 9.67594767453727e-015 , 150
+, REULER = 0 , 0 , 0
+ 
+ 
+!======================================== Body ========================================
+!
+!                         RecurDyn_Data_Name='LINK_3'
+PART / 635
+, NAME = 'LINK_3'
+, MASS = 0.07397795204
+, CM = 639
+, IP = 121.87978 , 117.44279 , 7.40396
+, 0 , 0 , 0
+, QG = 0 , 0 , 0
+, REULER = 0 , 0 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='LINK_3_cm'
+MARKER / 639
+, NAME = 'LINK_3.LINK_3_cm'
+, PART = 635
+, QP = 1.62052357 , 15.19482564 , 76.90162784
+, REULER = 1.56452028091189 , 0.630143108292455 , -1.57189681846677
+ 
+ 
+!                         RecurDyn_Data_Name='LINK_3_orig'
+MARKER / 636
+, NAME = 'LINK_3.LINK_3_orig'
+, PART = 635
+, QP = 0 , 0 , 0
+, REULER = 0 , 0 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='J008_i'
+MARKER / 612
+, NAME = 'LINK_3.J008_i'
+, PART = 635
+, QP = -30 , 0 , 20
+, REULER = 3.14159265358979 , 1.5707963267949 , -1.5707963267949
+ 
+ 
+!                         RecurDyn_Data_Name='J009_j'
+MARKER / 589
+, NAME = 'LINK_3.J009_j'
+, PART = 635
+, QP = 30 , 2.50000000000001 , 130
+, REULER = 0 , 1.5707963267949 , 1.5707963267949
+ 
+ 
+!                         RecurDyn_Data_Name='J009_j_tmp'
+MARKER / 475
+, NAME = 'LINK_3.J009_j_tmp'
+, PART = 635
+, QP = 30 , 2.50000000000001 , 130
+, REULER = 0 , 1.5707963267949 , 1.5707963267949
  
  
 !======================================== Joint ========================================
@@ -898,16 +944,6 @@ JOINT / 129
 , I = 138
 , J = 139
 , Revolute
- 
- 
-!======================================== Motion ========================================
-!
-MOTION / 1000000
-, NAME = 'J001.RMotion'
-, JOINT = 129
-, ROTATION 
-, DISPLACEMENT 
-, FUNCTION = SHF(TIME,0.0,0.5235987755982986,0.08726646259971643,0,0)\
  
  
 !======================================== Joint ========================================
@@ -928,16 +964,6 @@ JOINT / 175
 , I = 184
 , J = 185
 , Revolute
- 
- 
-!======================================== Motion ========================================
-!
-MOTION / 1000001
-, NAME = 'J003.RMotion'
-, JOINT = 175
-, ROTATION 
-, DISPLACEMENT 
-, FUNCTION = SHF(TIME,0.0,0.5235987755982986,0.1745329251994329,0,0)\
  
  
 !======================================== Joint ========================================
@@ -977,26 +1003,6 @@ JOINT / 267
 , NAME = 'J007'
 , I = 276
 , J = 277
-, Revolute
- 
- 
-!======================================== Joint ========================================
-!
-!                         RecurDyn_Data_Name='J008'
-JOINT / 290
-, NAME = 'J008'
-, I = 299
-, J = 300
-, Revolute
- 
- 
-!======================================== Joint ========================================
-!
-!                         RecurDyn_Data_Name='J009'
-JOINT / 313
-, NAME = 'J009'
-, I = 322
-, J = 323
 , Revolute
  
  
@@ -1078,60 +1084,114 @@ JOINT / 559
 , Revolute
  
  
+!======================================== Joint ========================================
+!
+!                         RecurDyn_Data_Name='J008'
+JOINT / 634
+, NAME = 'J008'
+, I = 612
+, J = 613
+, Revolute
+ 
+ 
+!======================================== Joint ========================================
+!
+!                         RecurDyn_Data_Name='J009'
+JOINT / 611
+, NAME = 'J009'
+, I = 588
+, J = 589
+, Revolute
+ 
+ 
 !======================================== Spring/Damper ========================================
 !
 !                         RecurDyn_Data_Name='S001'
-SPRINGDAMPER / 406
+SPRINGDAMPER / 485
 , NAME = 'S001'
-, I = 454
-, J = 455
+, I = 494
+, J = 495
 , TRANSLATION 
-, K = 600
+, K = 300
 , C = 0
 , FORCE = 0
-, LENGTH = 138.000031426844
+, LENGTH = 140.
  
  
 !======================================== Spring/Damper ========================================
 !
 !                         RecurDyn_Data_Name='S002'
-SPRINGDAMPER / 462
+SPRINGDAMPER / 451
 , NAME = 'S002'
-, I = 471
-, J = 472
+, I = 460
+, J = 461
 , TRANSLATION 
-, K = 600
+, K = 300
 , C = 0
 , FORCE = 0
-, LENGTH = 138.000040706322
+, LENGTH = 140.
  
  
 !======================================== Spring/Damper ========================================
 !
 !                         RecurDyn_Data_Name='S003'
-SPRINGDAMPER / 479
+SPRINGDAMPER / 502
 , NAME = 'S003'
-, I = 488
-, J = 489
+, I = 511
+, J = 512
 , TRANSLATION 
-, K = 600
+, K = 300
 , C = 0
 , FORCE = 0
-, LENGTH = 138.000031426844
+, LENGTH = 140.
  
  
 !======================================== Spring/Damper ========================================
 !
 !                         RecurDyn_Data_Name='S004'
-SPRINGDAMPER / 496
+SPRINGDAMPER / 601
 , NAME = 'S004'
-, I = 505
-, J = 506
+, I = 466
+, J = 467
 , TRANSLATION 
-, K = 600
+, K = 300
 , C = 0
 , FORCE = 0
-, LENGTH = 138.000754030649
+, LENGTH = 140.
+ 
+ 
+!======================================== TRANSLATIONAL FORCE ========================================
+!
+!                         RecurDyn_Data_Name='G001'
+TRANSLATIONAL_FORCE / 307
+, NAME = 'G001'
+, I = 314
+, JFLOAT = 315
+, RM = 314
+, FX = 0.0\
+, FY = 0.0\
+, FZ = (1)*(IF(TIME-0.2:8000,0,0))+(0)\
+ 
+ 
+!======================================== TRANSLATIONAL FORCE ========================================
+!
+!                         RecurDyn_Data_Name='G002'
+TRANSLATIONAL_FORCE / 654
+, NAME = 'G002'
+, I = 606
+, JFLOAT = 607
+, RM = 606
+, FX = 0.0\
+, FY = 0.0\
+, FZ = (1)*(IF(TIME-0.2:8000,0,0))+(0)\
+ 
+ 
+!======================================== Sensor ========================================
+!
+!                         RecurDyn_Data_Name='Se001'
+RSENSOR / 653
+, NAME = 'Se001'
+, FUNCTION = AY(335,625)\
  
  
 !======================================== UNIT ========================================
