@@ -64,9 +64,9 @@
  ========================================================================
  >> THE SIZE OF USED N120 ARRAY                    =             8064
  ------------------------------------------------------------------------
- >> THE SIZE OF USED IPN16_1 ARRAY                 =             1674
+ >> THE SIZE OF USED IPN16_1 ARRAY                 =             1818
  ------------------------------------------------------------------------
- >> THE SIZE OF USED IPN17 ARRAY                   =             1674
+ >> THE SIZE OF USED IPN17 ARRAY                   =             1818
  ------------------------------------------------------------------------
  >> THE SIZE OF USED IPN18 ARRAY                   =              200
  ========================================================================
@@ -80,15 +80,15 @@
  >> THE SIZE OF USED N90n3 ARRAY                   =             1000
  ========================================================================
  ============================================================
- >> THE SIZE OF USED RBUS ARRAY =       85815
+ >> THE SIZE OF USED RBUS ARRAY =       86435
  ------------------------------------------------------------
- >> THE SIZE OF USED IBUS ARRAY =        5301
+ >> THE SIZE OF USED IBUS ARRAY =        5589
  ------------------------------------------------------------
  >> THE SIZE OF USED LBUS ARRAY =        9509
  ------------------------------------------------------------
  >> THE SIZE OF USED MGRBUS ARRAY =         292
  ------------------------------------------------------------
- >> THE SIZE OF USED OBUS ARRAY                    =              700
+ >> THE SIZE OF USED OBUS ARRAY                    =              728
  ========================================================================
  >>> SUCCESSFULLY BUILT THE RD/SOLVER STRUCTURE
 
@@ -129,11 +129,11 @@
  
  ======================================================================
  *** WHAT = 
- sim/dyn,end=1.000000,step=1000                                                 
+ sim/dyn,end=6.000000,step=1000                                                 
   
  ======================================================================
  *** TOKEN SIMULATION TYPE = dyn
- *** TOKEN ENDTIME =   1.00000000000000        1.00000000000000     
+ *** TOKEN ENDTIME =   6.00000000000000        1.00000000000000     
  *** TOKEN PLOT STEPSIZE =        1000          30
  
  ========================================================================
@@ -148,117 +148,117 @@
        427 FIXED               TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Z          -5.551115E-17
-                               ROTATION ABOUT Y           5.474784E-17
-                               ROTATION ABOUT X           1.323489E-23
+                               ROTATION ABOUT Z           0.000000E+00
+                               ROTATION ABOUT Y           5.474742E-17
+                               ROTATION ABOUT X          -1.323489E-23
  ========================================================================
        129 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y          -1.107147E-14
+                               ROTATION ABOUT Y          -1.409837E-14
                                ROTATION ABOUT X           1.053011E-16
  ========================================================================
        152 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           2.240769E-15
-                               ROTATION ABOUT X           1.118897E-16
+                               ROTATION ABOUT Y           2.240500E-15
+                               ROTATION ABOUT X           5.637851E-17
  ========================================================================
        382 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           9.427355E-15
-                               ROTATION ABOUT X          -1.127570E-16
+                               ROTATION ABOUT Y           9.426487E-15
+                               ROTATION ABOUT X          -5.594483E-17
  ========================================================================
        175 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           7.102567E-15
+                               ROTATION ABOUT Y           1.076256E-14
                                ROTATION ABOUT X           9.957993E-17
  ========================================================================
        244 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           6.373454E-15
-                               ROTATION ABOUT X          -5.464379E-17
+                               ROTATION ABOUT Y           6.372355E-15
+                               ROTATION ABOUT X          -5.507747E-17
  ========================================================================
        359 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           1.109356E-14
-                               ROTATION ABOUT X           5.290907E-17
+                               ROTATION ABOUT Y           1.109312E-14
+                               ROTATION ABOUT X           5.551115E-17
  ========================================================================
        198 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           8.200953E-17
-                               ROTATION ABOUT X           9.957993E-17
+                               ROTATION ABOUT Y           8.477118E-17
+                               ROTATION ABOUT X           4.406877E-17
  ========================================================================
        267 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y          -2.611613E-16
-                               ROTATION ABOUT X           1.088539E-16
+                               ROTATION ABOUT Y          -2.611598E-16
+                               ROTATION ABOUT X           5.377643E-17
  ========================================================================
        336 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           1.183428E-14
-                               ROTATION ABOUT X           1.092876E-16
+                               ROTATION ABOUT Y           1.183385E-14
+                               ROTATION ABOUT X           5.464379E-17
  ========================================================================
        405 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y          -2.614181E-15
-                               ROTATION ABOUT X           2.532017E-17
+                               ROTATION ABOUT Y           4.676255E-15
+                               ROTATION ABOUT X          -2.975731E-17
  ========================================================================
        559 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y          -4.569812E-15
-                               ROTATION ABOUT X          -6.123234E-17
+                               ROTATION ABOUT Y           7.232934E-15
+                               ROTATION ABOUT X           4.978996E-17
  ========================================================================
        221 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           3.551557E-15
-                               ROTATION ABOUT X          -5.721189E-18
+                               ROTATION ABOUT Y          -7.361237E-15
+                               ROTATION ABOUT X           4.978996E-17
  ========================================================================
        634 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           4.124137E-15
-                               ROTATION ABOUT X           5.507747E-17
+                               ROTATION ABOUT Y           4.123601E-15
+                               ROTATION ABOUT X           5.464379E-17
  ========================================================================
-       513 REVOLUTE            TRANSLATION ALONG X       -7.434053E-13
+       513 REVOLUTE            TRANSLATION ALONG X        9.223733E-13
  ========================================================================
-                               TRANSLATION ALONG Y        3.907985E-13
+                               TRANSLATION ALONG Y        8.597567E-13
  ========================================================================
-                               TRANSLATION ALONG Z        5.968559E-13
+                               TRANSLATION ALONG Z        1.136868E-13
  ========================================================================
-                               ROTATION ABOUT Y          -1.293925E-14
+                               ROTATION ABOUT Y          -1.874060E-15
  ========================================================================
-                               ROTATION ABOUT X           2.620466E-15
+                               ROTATION ABOUT X          -8.767360E-16
  ========================================================================
-       536 REVOLUTE            TRANSLATION ALONG X       -1.608047E-12
+       536 REVOLUTE            TRANSLATION ALONG X       -1.948663E-12
  ========================================================================
-                               TRANSLATION ALONG Y       -6.892265E-13
+                               TRANSLATION ALONG Y       -1.165290E-12
  ========================================================================
-                               TRANSLATION ALONG Z        6.252776E-13
+                               TRANSLATION ALONG Z        3.410605E-13
  ========================================================================
-                               ROTATION ABOUT Y          -6.115966E-15
+                               ROTATION ABOUT Y          -9.912487E-15
  ========================================================================
-                               ROTATION ABOUT X           1.266226E-14
+                               ROTATION ABOUT X          -1.437569E-15
  ========================================================================
-       611 REVOLUTE            TRANSLATION ALONG X        3.161915E-13
+       611 REVOLUTE            TRANSLATION ALONG X       -7.105427E-13
  ========================================================================
-                               TRANSLATION ALONG Y        5.471018E-13
+                               TRANSLATION ALONG Y        9.854541E-13
  ========================================================================
-                               TRANSLATION ALONG Z       -2.557954E-13
+                               TRANSLATION ALONG Z       -5.400125E-13
  ========================================================================
-                               ROTATION ABOUT Y           1.575563E-15
+                               ROTATION ABOUT Y           8.861401E-15
  ========================================================================
-                               ROTATION ABOUT X          -3.787335E-15
+                               ROTATION ABOUT X          -6.452738E-15
  ========================================================================
  
 
@@ -285,115 +285,115 @@
        427 FIXED               TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Z          -5.551115E-17
-                               ROTATION ABOUT Y           5.474784E-17
-                               ROTATION ABOUT X           1.323489E-23
+                               ROTATION ABOUT Z           0.000000E+00
+                               ROTATION ABOUT Y           5.474742E-17
+                               ROTATION ABOUT X          -1.323489E-23
  ========================================================================
        129 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y          -1.107147E-14
+                               ROTATION ABOUT Y          -1.409837E-14
                                ROTATION ABOUT X           1.053011E-16
  ========================================================================
        152 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           2.240351E-15
-                               ROTATION ABOUT X           1.110223E-16
+                               ROTATION ABOUT Y           2.240279E-15
+                               ROTATION ABOUT X           5.594483E-17
  ========================================================================
        382 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
                                ROTATION ABOUT Y           9.426921E-15
-                               ROTATION ABOUT X          -1.127570E-16
+                               ROTATION ABOUT X          -5.637851E-17
  ========================================================================
        175 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           7.102567E-15
+                               ROTATION ABOUT Y           1.076256E-14
                                ROTATION ABOUT X           9.957993E-17
  ========================================================================
        244 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           6.372329E-15
-                               ROTATION ABOUT X          -5.421011E-17
+                               ROTATION ABOUT Y           6.373159E-15
+                               ROTATION ABOUT X          -5.551115E-17
  ========================================================================
        359 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           1.109312E-14
-                               ROTATION ABOUT X           5.204170E-17
+                               ROTATION ABOUT Y           1.109269E-14
+                               ROTATION ABOUT X           5.464379E-17
  ========================================================================
        198 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           8.200953E-17
-                               ROTATION ABOUT X           9.957993E-17
+                               ROTATION ABOUT Y           8.477118E-17
+                               ROTATION ABOUT X           4.406877E-17
  ========================================================================
        267 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y          -2.609722E-16
-                               ROTATION ABOUT X           1.084202E-16
+                               ROTATION ABOUT Y          -2.610625E-16
+                               ROTATION ABOUT X           5.247539E-17
  ========================================================================
        336 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           1.183428E-14
-                               ROTATION ABOUT X           1.101549E-16
+                               ROTATION ABOUT Y           1.183385E-14
+                               ROTATION ABOUT X           5.290907E-17
  ========================================================================
        405 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y          -2.614181E-15
-                               ROTATION ABOUT X           2.575385E-17
+                               ROTATION ABOUT Y           4.731766E-15
+                               ROTATION ABOUT X          -3.105835E-17
  ========================================================================
        559 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y          -4.569812E-15
-                               ROTATION ABOUT X          -6.123234E-17
+                               ROTATION ABOUT Y           7.232500E-15
+                               ROTATION ABOUT X           4.978996E-17
  ========================================================================
        221 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           3.551557E-15
-                               ROTATION ABOUT X          -5.721189E-18
+                               ROTATION ABOUT Y          -7.361237E-15
+                               ROTATION ABOUT X           4.978996E-17
  ========================================================================
        634 REVOLUTE            TRANSLATION ALONG X        0.000000E+00
                                TRANSLATION ALONG Y        0.000000E+00
                                TRANSLATION ALONG Z        0.000000E+00
-                               ROTATION ABOUT Y           4.123056E-15
-                               ROTATION ABOUT X           5.594483E-17
+                               ROTATION ABOUT Y           4.122484E-15
+                               ROTATION ABOUT X           5.507747E-17
  ========================================================================
-       513 REVOLUTE            TRANSLATION ALONG X       -4.440892E-16
+       513 REVOLUTE            TRANSLATION ALONG X        8.881784E-16
  ========================================================================
-                               TRANSLATION ALONG Y        2.131628E-14
+                               TRANSLATION ALONG Y       -1.421085E-14
  ========================================================================
-                               TRANSLATION ALONG Z       -8.526513E-14
+                               TRANSLATION ALONG Z        0.000000E+00
  ========================================================================
-                               ROTATION ABOUT Y           1.058658E-16
+                               ROTATION ABOUT Y           1.331896E-17
  ========================================================================
                                ROTATION ABOUT X           REDUNDANT      
  ========================================================================
-       536 REVOLUTE            TRANSLATION ALONG X       -5.773160E-15
+       536 REVOLUTE            TRANSLATION ALONG X       -5.329071E-15
  ========================================================================
-                               TRANSLATION ALONG Y       -7.105427E-15
+                               TRANSLATION ALONG Y       -1.421085E-14
  ========================================================================
                                TRANSLATION ALONG Z       -2.842171E-14
  ========================================================================
-                               ROTATION ABOUT Y           3.292509E-17
+                               ROTATION ABOUT Y          -4.149336E-17
  ========================================================================
                                ROTATION ABOUT X           REDUNDANT      
  ========================================================================
-       611 REVOLUTE            TRANSLATION ALONG X       -2.131628E-14
+       611 REVOLUTE            TRANSLATION ALONG X        7.105427E-15
  ========================================================================
-                               TRANSLATION ALONG Y       -8.065620E-15
+                               TRANSLATION ALONG Y       -8.362770E-15
  ========================================================================
                                TRANSLATION ALONG Z        REDUNDANT      
  ========================================================================
-                               ROTATION ABOUT Y           2.602085E-17
+                               ROTATION ABOUT Y           1.387779E-17
  ========================================================================
                                ROTATION ABOUT X           REDUNDANT      
  ========================================================================
@@ -468,7 +468,7 @@
               ID                TYPE                DIRECTION
  ========================================================================
              382                REVOLUTE           ROTATION   Z
-             336                REVOLUTE           ROTATION   Z
+             359                REVOLUTE           ROTATION   Z
  ========================================================================
 
 
@@ -522,27 +522,27 @@
       NUMBER OF GENERALIZED VELOCITY ..............       13
       NUMBER OF JOINT .............................  14
       NUMBER OF CUTJNT/ELEMENTARYJNT/PTCV/CVCV.....   3
-      NUMBER OF SPRING-DAMPER-ACTUATOR ............   4
+      NUMBER OF SPRING-DAMPER-ACTUATOR ............   8
       NUMBER OF TRANSLATIONAL FORCE ...............   2
       =======================================================
-      TOTAL SPACE USED IN RBUS ARRAY ..............      37963
+      TOTAL SPACE USED IN RBUS ARRAY ..............      38583
       =======================================================
       THE SYSTEM HAS        2 KINEMATIC DEGREES OF FREEDOM.
       =======================================================
  
  
  ========================================================================
- ** USED MAXIMUM ARRAY WITH RPT DATABASE           =              700
+ ** USED MAXIMUM ARRAY WITH RPT DATABASE           =              728
  ========================================================================
  ========================================================================
  ** USED ARRAY WITH RPT DATABASE                   =                0
  ========================================================================
  
  ========================================================================
- ** USED MAXIMUM ARRAY WITH RPT DATABASE           =              700
+ ** USED MAXIMUM ARRAY WITH RPT DATABASE           =              728
  ========================================================================
  ========================================================================
- ** USED ARRAY WITH RPT DATABASE                   =              476
+ ** USED ARRAY WITH RPT DATABASE                   =              504
  ========================================================================
  
                  G-ALPHA IMPLICIT INTEGRATOR INFORMATION
@@ -554,21 +554,19 @@
  
       TIME       STEPSIZE     A_DELNRM      NJAC    NRES    ANRF    AINTF
  ========================================================================
-   2.73000E-04  8.00000E-06  2.41510E-06     100     300       0       0
-   5.00000E-03  3.44000E-04  6.76708E-02     199     600       0       0
-   8.90000E-02  1.00000E-03  1.40973E+00     341    1139       1       1
-   1.88000E-01  1.00000E-03  3.80347E-02     440    1548       1       1
-   2.22500E-01  2.50000E-04  3.62516E-01     549    1961       2       4
-   2.48250E-01  2.50000E-04  1.14199E-01     654    2354       5       4
-   2.97000E-01  1.00000E-03  5.78620E-01     771    2775       7       7
-   3.65000E-01  1.00000E-03  3.97989E-02     874    3103       8       7
-   4.33000E-01  1.00000E-03  2.29422E-03     974    3402       8       8
-   5.32000E-01  1.00000E-03  3.95021E-06    1073    3699       8       8
-   6.31000E-01  1.00000E-03  6.72282E-09    1172    3996       8       8
-   7.30000E-01  1.00000E-03  1.25025E-11    1271    4293       8       8
-   8.29000E-01  1.00000E-03  1.67640E-12    1370    4590       8       8
-   9.28000E-01  1.00000E-03  1.01508E-12    1469    4887       8       8
-   1.00000E+00  1.00000E-03  8.93660E-13    1541    5103       8       8
+   2.73000E-04  8.00000E-06  1.03080E-05     100     300       0       0
+   2.78500E-03  6.40000E-05  4.29842E-05     199     597       0       0
+   1.02000E-01  6.00000E-03  2.57305E-05     298     894       0       0
+   6.96000E-01  6.00000E-03  3.26025E-05     397    1191       0       0
+   1.29000E+00  6.00000E-03  4.52035E-11     496    1488       0       0
+   1.88400E+00  6.00000E-03  5.27606E-11     595    1785       0       0
+   2.47800E+00  6.00000E-03  3.13212E-05     694    2082       0       0
+   3.07200E+00  6.00000E-03  3.28704E-08     793    2379       0       0
+   3.66600E+00  6.00000E-03  3.76926E-11     892    2676       0       0
+   4.26000E+00  6.00000E-03  7.18407E-11     991    2973       0       0
+   4.85400E+00  6.00000E-03  1.50631E-11    1090    3270       0       0
+   5.44800E+00  6.00000E-03  6.36090E-05    1189    3567       0       0
+   6.00000E+00  6.00000E-03  1.01590E-04    1281    3843       0       0
  
  ======================================================================
  *** WHAT = 
@@ -580,10 +578,10 @@
  ======================================================================
  >> MODEL NAME INFORMATION : RecurDyn_Model                                                                      
  ======================================================================
- * STARTING TIME/DATE =  17:47:42 / 2025.11.14
- * ENDING TIME/DATE   =  17:47:42 / 2025.11.14
+ * STARTING TIME/DATE =  10:56: 6 / 2025.11.28
+ * ENDING TIME/DATE   =  10:56: 7 / 2025.11.28
  ======================================================================
- * USED TIME =        0 SECOND
+ * USED TIME =        1 SECOND
  ======================================================================
  
  ========================================================================

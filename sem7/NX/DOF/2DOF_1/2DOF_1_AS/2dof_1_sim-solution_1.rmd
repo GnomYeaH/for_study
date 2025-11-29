@@ -113,7 +113,7 @@ MARKER / 16
 , NAME = 'BASE_PLATE.BASE_PLATE_cm'
 , PART = 12
 , QP = 1.947e-005 , 2.215e-005 , 2.73723584
-, REULER = 2.79420302857138 , 1.5707962035649 , 1.57079627848157
+, REULER = 2.79420302853977 , 1.5707962035649 , 1.57079627848157
  
  
 !                         RecurDyn_Data_Name='BASE_PLATE_orig'
@@ -129,7 +129,7 @@ MARKER / 625
 , NAME = 'BASE_PLATE.A002'
 , PART = 12
 , QP = 0 , 0 , 0
-, REULER = 0 , 0 , 0
+, REULER = -0.785398163397448 , 0 , 0
  
  
 !                         RecurDyn_Data_Name='J001_j'
@@ -233,6 +233,38 @@ MARKER / 467
 , NAME = 'BASE_PLATE.S004_j'
 , PART = 12
 , QP = -50 , -1.22464679914735e-014 , 5
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='D001_j'
+MARKER / 292
+, NAME = 'BASE_PLATE.D001_j'
+, PART = 12
+, QP = 9.18485099360515e-015 , -50 , 5
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='D002_j'
+MARKER / 325
+, NAME = 'BASE_PLATE.D002_j'
+, PART = 12
+, QP = -1.53080849893419e-014 , 50 , 5
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='D003_j'
+MARKER / 673
+, NAME = 'BASE_PLATE.D003_j'
+, PART = 12
+, QP = -50 , -1.22464679914735e-014 , 5
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='D004_j'
+MARKER / 690
+, NAME = 'BASE_PLATE.D004_j'
+, PART = 12
+, QP = 50 , 6.12323399573677e-015 , 5
 , REULER = 3.14159265358979 , 3.14159265358979 , 0
  
  
@@ -784,7 +816,7 @@ MARKER / 124
 , NAME = 'MOVING_PLATE.MOVING_PLATE_cm'
 , PART = 120
 , QP = -1.947e-005 , 2.215e-005 , 147.26276416
-, REULER = -2.79420302851756 , 1.57079645002489 , 1.57079627848157
+, REULER = -2.79420302857138 , 1.57079645002489 , 1.57079627848157
  
  
 !                         RecurDyn_Data_Name='MOVING_PLATE_orig'
@@ -800,7 +832,7 @@ MARKER / 335
 , NAME = 'MOVING_PLATE.A001'
 , PART = 120
 , QP = 1.18308141061618e-015 , 3.5527136788005e-015 , 150
-, REULER = 0 , 0 , 0
+, REULER = -0.785398163397448 , 0 , 0
  
  
 !                         RecurDyn_Data_Name='J013_i'
@@ -864,6 +896,38 @@ MARKER / 466
 , NAME = 'MOVING_PLATE.S004_i'
 , PART = 120
 , QP = -50 , 9.67594767453727e-015 , 145
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='D001_i'
+MARKER / 291
+, NAME = 'MOVING_PLATE.D001_i'
+, PART = 120
+, QP = -8.00176958298897e-015 , -50 , 145
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='D002_i'
+MARKER / 324
+, NAME = 'MOVING_PLATE.D002_i'
+, PART = 120
+, QP = 1.64911663999581e-014 , 50 , 145
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='D003_i'
+MARKER / 672
+, NAME = 'MOVING_PLATE.D003_i'
+, PART = 120
+, QP = -50 , 9.67594767453727e-015 , 145
+, REULER = 3.14159265358979 , 3.14159265358979 , 0
+ 
+ 
+!                         RecurDyn_Data_Name='D004_i'
+MARKER / 689
+, NAME = 'MOVING_PLATE.D004_i'
+, PART = 120
+, QP = 50 , -8.69375431267303e-015 , 145
 , REULER = 3.14159265358979 , 3.14159265358979 , 0
  
  
@@ -1160,6 +1224,62 @@ SPRINGDAMPER / 601
 , LENGTH = 140.
  
  
+!======================================== Spring/Damper ========================================
+!
+!                         RecurDyn_Data_Name='D001'
+SPRINGDAMPER / 482
+, NAME = 'D001'
+, I = 291
+, J = 292
+, TRANSLATION 
+, K = 0
+, C = 1
+, FORCE = 0
+, LENGTH = 0.
+ 
+ 
+!======================================== Spring/Damper ========================================
+!
+!                         RecurDyn_Data_Name='D002'
+SPRINGDAMPER / 301
+, NAME = 'D002'
+, I = 324
+, J = 325
+, TRANSLATION 
+, K = 0
+, C = 1
+, FORCE = 0
+, LENGTH = 0.
+ 
+ 
+!======================================== Spring/Damper ========================================
+!
+!                         RecurDyn_Data_Name='D003'
+SPRINGDAMPER / 621
+, NAME = 'D003'
+, I = 672
+, J = 673
+, TRANSLATION 
+, K = 0
+, C = 1
+, FORCE = 0
+, LENGTH = 0.
+ 
+ 
+!======================================== Spring/Damper ========================================
+!
+!                         RecurDyn_Data_Name='D004'
+SPRINGDAMPER / 680
+, NAME = 'D004'
+, I = 689
+, J = 690
+, TRANSLATION 
+, K = 0
+, C = 1
+, FORCE = 0
+, LENGTH = 0.
+ 
+ 
 !======================================== TRANSLATIONAL FORCE ========================================
 !
 !                         RecurDyn_Data_Name='G001'
@@ -1170,7 +1290,7 @@ TRANSLATIONAL_FORCE / 307
 , RM = 314
 , FX = 0.0\
 , FY = 0.0\
-, FZ = (1)*(IF(TIME-0.2:8000,0,0))+(0)\
+, FZ = (1)*(STEP(TIME,0,0,1,1000)+STEP(TIME,2,1000,3,2000)+STEP(TIME,5,2000,6,4000))+(0)\
  
  
 !======================================== TRANSLATIONAL FORCE ========================================
@@ -1183,7 +1303,7 @@ TRANSLATIONAL_FORCE / 654
 , RM = 606
 , FX = 0.0\
 , FY = 0.0\
-, FZ = (1)*(IF(TIME-0.2:8000,0,0))+(0)\
+, FZ = (1)*(STEP(TIME,0,0,1,1000)+STEP(TIME,2,1000,3,2000)+STEP(TIME,5,2000,6,4000))+(0)\
  
  
 !======================================== Sensor ========================================
@@ -1191,7 +1311,7 @@ TRANSLATIONAL_FORCE / 654
 !                         RecurDyn_Data_Name='Se001'
 RSENSOR / 653
 , NAME = 'Se001'
-, FUNCTION = AY(335,625)\
+, FUNCTION = AX(335,625)\
  
  
 !======================================== UNIT ========================================
