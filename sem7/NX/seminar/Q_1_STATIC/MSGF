@@ -1,0 +1,109 @@
+ Current FE Model:  C:\last work Q\model2_sim1.sim
+ Current FE Study:  Solution_1
+model2_sim1-Solution_1                        Fri Dec 19  TMG10.0.293 12/19/2025
+
+   Starting TMG Analysis...
+
+   ...done.
+
+Cpu time=      0.2     DATACH Module
+
+   Performing data checking...
+
+     Number of nodes                        2895
+     Number of geometric elements           1832
+     Number of 1-D/duct fluid elements         0
+
+   ...done.
+
+Cpu time=      2.3      ECHOS Module
+
+   Calculating geometrical parameters...
+
+   ...done.
+
+Cpu time=      2.8       COND Module
+
+   Calculating conductive conductances and capacitances...
+
+   ...done.
+
+Cpu time=      4.2      VUFAC Module
+
+   Calculating thermal couplings and geometric radiative parameters...
+
+   ...done.
+
+Cpu time=      5.3      GRAYB Module
+
+   Calculating radiative couplings and/or gray body matrices...
+
+   ...done.
+
+Cpu time=      5.5      POWER Module
+
+   Calculating radiative heat loads...
+     No radiative heat loads calculated.
+
+   ...done.
+
+Cpu time=      5.7      MEREL Module
+
+   Performing element merging and elimination...
+
+   ...done.
+
+Cpu time=      8.8   ANALYZER Module
+
+   Calculating temperatures...
+
+     Model Summary:
+
+     Number of elements                  =      8101
+     Total number of conductances        =     26520
+     Number of linear conductances       =     26500
+     Number of convective conductances   =        20
+     Number of boundary elements         =      6268
+
+     Note: During the analysis process a number of elements have been
+     created whose labels you may not recognize. To find out more about
+     these elements and the elements they are associated with, please
+     look on file REPF for the phrase 'TMG element'
+
+
+     No. of iterations =      2   TDmax = 2.655E-04  at element      7669
+
+     Minimum temperature                 =    20.000 at element      1833        
+     Maximum temperature                 =   200.000 at element      1777 INIT_BC
+     Average temperature                 =   127.324
+
+     Summary for thermal elements:
+
+     Maximum heat balance deviation occurs           at element      5093        
+     Heat flow into sinks                = 8.907E+07
+     Heat flow from non-fluid sinks      = 8.907E+07
+     Heat load into elements             = 0.000E+00
+     Heat load into sinks                = 0.000E+00
+     Heat flow from fluid sinks          = 0.000E+00
+     Deviation from heat balance         = 1.186E+03
+
+
+
+ Heat Flow+Load Summary Into Different Sink Entities:
+        Sink Entity                       Temperature     Heat   Energy absorbed
+                                                       Flow+Load   since start 
+
+ Temperature(1)                            2.000E+02  -8.907E+07   0.000E+00
+ Sink elements with no entity names:       2.000E+01   8.907E+07   0.000E+00
+
+   ...done.
+
+Cpu time=      9.8   RSLTPOST Module
+
+   Performing result postprocessing...
+
+   
+
+   ...done.
+
+Cpu time=     10.7      End of run

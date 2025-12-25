@@ -1,0 +1,309 @@
+<!--
+*================================================================
+*                      Mapping Information                       
+*           Maya Heat Transfer Technologies Ltd, 514-369-5706    
+*
+*        INPUT FILE: mapdata.xml
+*        CREATED ON: Fri Dec 19 13:49:53 2025
+*          SIM FILE: C:\last work Q\model2_sim1.sim
+*          FEM FILE: C:\last work Q\model2_fem1.fem
+*
+*=============================================================== 
+-->
+<SolutionFile version="NX 10"
+  solver="NX THERMAL / FLOW"
+  class="Thermal"
+  solution="Thermal">
+  <Units>
+    <System>Millimeters</System>
+    <LengthConversionFactor> 1.0000000E+003</LengthConversionFactor>
+    <ForceConversionFactor> 1.0000000E+003</ForceConversionFactor>
+    <TemperatureConversionFactor> 1.0000000E+000</TemperatureConversionFactor>
+    <AbsoluteTemperatureShift>-2.7315000E+002</AbsoluteTemperatureShift>
+  </Units>
+  <NXBaseModelUnits>
+    <System>Millimeters</System>
+    <LengthConversionFactor> 1.0000000E+003</LengthConversionFactor>
+    <ForceConversionFactor> 1.0000000E+003</ForceConversionFactor>
+    <TemperatureConversionFactor> 1.0000000E+000</TemperatureConversionFactor>
+    <AbsoluteTemperatureShift>-2.7315000E+002</AbsoluteTemperatureShift>
+  </NXBaseModelUnits>
+  <SolutionParameters>
+    <Details>
+      <Property name="Description">
+        <Value></Value>
+      </Property>
+      <Property name="Run Directory Options">
+        <Value>2</Value>
+      </Property>
+      <Property name="Run Directory Location">
+        <Value></Value>
+      </Property>
+      <Property name="Solution Type">
+        <Value>0</Value>
+      </Property>
+      <Property name="Transient Thermal Loads to Use for Steady State">
+        <Value>0</Value>
+      </Property>
+      <Property name="Use Loads at Time">
+        <Value> 0.0000000E+000</Value>
+      </Property>
+      <Property name="Thermostat">
+        <Value>0</Value>
+      </Property>
+      <Property name="Advanced Parameters" type="arraySSMO">
+      </Property>
+      <Property name="Generic Entities" type="arraySSMO">
+      </Property>
+      <Property name="Run Solution in Parallel">
+        <Value>0</Value>
+      </Property>
+      <Property name="Parallel Configuration File">
+        <Value></Value>
+      </Property>
+    </Details>
+    <AmbientConditions>
+      <Property name="Ambient Conditions Pressure">
+        <Value> 1.0135100E+002</Value>
+      </Property>
+      <Property name="Fluid Temperature">
+        <Value> 2.0000000E+001</Value>
+      </Property>
+      <Property name="Radiative Environment Temperature">
+        <Value> 2.0000000E+001</Value>
+      </Property>
+      <Property name="Gravitational Acceleration">
+        <Value> 9.8100000E+003</Value>
+      </Property>
+      <Property name="Gravity Direction">
+        <Value> 0.0000000E+000    0.0000000E+000   -1.0000000E+000</Value>
+      </Property>
+    </AmbientConditions>
+    <InitialConditions>
+      <Property name="Thermal Initial Temperature">
+        <Value>0</Value>
+      </Property>
+      <Property name="Initial Temperature Value">
+        <Value> 2.0000000E+001</Value>
+      </Property>
+      <Property name="Results Directory">
+        <Value></Value>
+      </Property>
+      <Property name="TEMPF File">
+        <Value></Value>
+      </Property>
+      <Property name="Results to Use for Initial Conditions">
+        <Value>0</Value>
+      </Property>
+      <Property name="Initial Conditions Use Results at Time">
+        <Value> 0.0000000E+000</Value>
+      </Property>
+      <Property name="Transient Thermal Loads to Use for Steady State Initial Conditions">
+        <Value>0</Value>
+      </Property>
+      <Property name="Initial Conditions Use Loads at Time">
+        <Value> 0.0000000E+000</Value>
+      </Property>
+    </InitialConditions>
+    <Restart>
+      <Property name="Perform Restart">
+        <Value>0</Value>
+      </Property>
+      <Property name="Restart Files Location">
+        <Value>0</Value>
+      </Property>
+      <Property name="Restart Directory">
+        <Value></Value>
+      </Property>
+    </Restart>
+    <TransientSetup>
+      <Property name="Start Time">
+        <Value> 0.0000000E+000</Value>
+      </Property>
+      <Property name="End">
+        <Value>0</Value>
+      </Property>
+      <Property name="End Time">
+        <Value> 5.0000000E+002</Value>
+      </Property>
+      <Property name="Maximum Number of Cycles">
+        <Value>10</Value>
+      </Property>
+      <Property name="Maximum Number of Intervals">
+        <Value>10</Value>
+      </Property>
+      <Property name="End Solve if Temperature Between Cycles less than">
+        <Value> 1.0000000E-001</Value>
+      </Property>
+      <Property name="End Solve if Temperature Between Time Intervals less than">
+        <Value> 1.0000000E-001</Value>
+      </Property>
+      <Property name="Specify Cycle Period">
+        <Value> 0.0000000E+000</Value>
+      </Property>
+      <Property name="Specify Time Interval">
+        <Value> 0.0000000E+000</Value>
+      </Property>
+      <Property name="Target Temperature" type="arraySSMO">
+      </Property>
+      <Property name="Target Temperature Change" type="arraySSMO">
+      </Property>
+      <Property name="Maximum End Time">
+        <Value> 5.0000000E+002</Value>
+      </Property>
+      <Property name="Thermal Time Step Method">
+        <Value>0</Value>
+      </Property>
+      <Property name="Thermal Number of Steps">
+        <Value>100</Value>
+      </Property>
+      <Property name="Thermal Time Step">
+        <Value> 1.0000000E+000</Value>
+      </Property>
+      <Property name="Thermal Time Step vs. Time Table">
+        <Value> 0.0000000E+000</Value>
+      </Property>
+      <Property name="Maximum Temperature Change">
+        <Value> 1.0000000E+000</Value>
+      </Property>
+      <Property name="Minimum Time Step">
+        <Value> 1.0000000E+000</Value>
+      </Property>
+      <Property name="Maximum Time Step">
+        <Value> 1.0000000E+000</Value>
+      </Property>
+      <Property name="Thermal Results Type">
+        <Value>1</Value>
+      </Property>
+      <Property name="Thermal Time Interval">
+        <Value> 1.0000000E+000</Value>
+      </Property>
+      <Property name="Thermal Number of Results">
+        <Value>10</Value>
+      </Property>
+      <Property name="Thermal Output Times" type="arrayFloat">
+      </Property>
+      <Property name="Thermal Output Time Variation">
+        <Value> 0.0000000E+000</Value>
+      </Property>
+      <Property name="Cyclic Thermal Results Type">
+        <Value>0</Value>
+      </Property>
+      <Property name="Cyclic Time Interval">
+        <Value> 1.0000000E+000</Value>
+      </Property>
+      <Property name="Number per Cycle">
+        <Value>10</Value>
+      </Property>
+      <Property name="Cyclic Output Times" type="arrayFloat">
+      </Property>
+      <Property name="Cyclic Output Time Variation">
+        <Value> 0.0000000E+000</Value>
+      </Property>
+      <Property name="Results for Last Cycle Only">
+        <Value>0</Value>
+      </Property>
+      <Property name="Run to Steady State Thermal Results Type">
+        <Value>2</Value>
+      </Property>
+      <Property name="Run to Steady State Time Interval">
+        <Value> 1.0000000E+000</Value>
+      </Property>
+      <Property name="Number per Time Interval">
+        <Value>10</Value>
+      </Property>
+      <Property name="Run to Steady State Output Times" type="arrayFloat">
+      </Property>
+      <Property name="Run to Steady State Output Time Variation">
+        <Value> 0.0000000E+000</Value>
+      </Property>
+    </TransientSetup>
+    <ResultsOptions>
+      <Property name="Temperatures">
+        <Value>1</Value>
+      </Property>
+      <Property name="Temperature Results Location">
+        <Value>2</Value>
+      </Property>
+      <Property name="Min/Max Temperatures and Occurrence Times">
+        <Value>1</Value>
+      </Property>
+      <Property name="Local Temperature Error Estimate">
+        <Value>0</Value>
+      </Property>
+      <Property name="Conductive Fluxes">
+        <Value>0</Value>
+      </Property>
+      <Property name="Conductive Fluxes Results Location">
+        <Value>2</Value>
+      </Property>
+      <Property name="Convective Heat Fluxes">
+        <Value>0</Value>
+      </Property>
+      <Property name="Convective Heat Flux Results Location">
+        <Value>2</Value>
+      </Property>
+      <Property name="Temperature Gradients">
+        <Value>0</Value>
+      </Property>
+      <Property name="Temperature Gradients Results Location">
+        <Value>2</Value>
+      </Property>
+      <Property name="Transverse Temperature Gradients">
+        <Value>0</Value>
+      </Property>
+      <Property name="Total Loads and Fluxes">
+        <Value>1</Value>
+      </Property>
+      <Property name="Residuals">
+        <Value>0</Value>
+      </Property>
+      <Property name="Free and Forced Convection Coefficients">
+        <Value>0</Value>
+      </Property>
+      <Property name="Free and Forced Convection Coefficient Results Location">
+        <Value>2</Value>
+      </Property>
+      <Property name="Phase Change Quality">
+        <Value>0</Value>
+      </Property>
+      <Property name="RC Products">
+        <Value>0</Value>
+      </Property>
+      <Property name="View factors Sums">
+        <Value>1</Value>
+      </Property>
+      <Property name="Net Radiative Fluxes">
+        <Value>0</Value>
+      </Property>
+      <Property name="Radiosity Fluxes">
+        <Value>0</Value>
+      </Property>
+      <Property name="Irradiance Fluxes">
+        <Value>0</Value>
+      </Property>
+    </ResultsOptions>
+  </SolutionParameters>
+  <OpticalPropertyList>
+  </OpticalPropertyList>
+  <AdvancedOpticalPropertyList>
+  </AdvancedOpticalPropertyList>
+  <NonGeometricElementList>
+  </NonGeometricElementList>
+  <AdvancedParameterList>
+  </AdvancedParameterList>
+  <GenericEntityList>
+  </GenericEntityList>
+  <LayerList>
+  </LayerList>
+  <TargetTemperatureList>
+  </TargetTemperatureList>
+  <TargetTemperatureChangeList>
+  </TargetTemperatureChangeList>
+  <ThermostatList>
+  </ThermostatList>
+  <Constraints>
+    <MappingList>
+    </MappingList>
+  </Constraints>
+</SolutionFile>

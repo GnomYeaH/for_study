@@ -1,0 +1,59 @@
+-1
+       201
+Material Description                    
+Version 1.0
+        -1
+        -1
+         1         6
+         1         1         6          Default Air Material                    
+DENSITY                                          1
+SPECIFIC_HEAT_P                                  0
+  0.100700000000E+10
+SPECIFIC_HEAT_V                                  0
+  0.720000000000E+09
+DYNAMIC_VISCOSITY                                0
+  0.185000015307E-07
+CONDUCTIVITY                                     0
+  0.262999992371E+02
+THERMAL_EXPANSION_COEFFICIENT                    0
+  0.340999988839E-02
+-999
+-1
+       202
+Property Definitions                    
+Version 1.0
+        -1
+        -1
+         1
+         1       300                                              DENSITY_OF_GAS
+       -10         0         2
+  0.100000000000E+01  0.287000000000E+09
+-999
+-1
+       309
+Enclosures material information         
+Version 1.0
+        -1
+        -1
+         1
+         1         0         0         1         0         0         0         0
+-999
+-1
+       304
+Fan head loss information               
+Version 1.0
+        -1
+        -1
+         0
+         0
+-999
+-1
+       302
+Variable Boundary Conditions            
+Version 1.0
+        -1
+        -1
+         1
+         1         0
+  0.675000033280E+11
+-999
