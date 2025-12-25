@@ -16,8 +16,9 @@ e_int4 = 0;
 x02 = [-pi/2 0 0 0];
 xk = [5/6*pi 0 pi/3 0];
 
-[t1,y1] = ode15s(@lab_ode,(0:0.01:20),x01);
-[t2,y2] = ode15s(@lab_ode2,(0:0.01:3),x02);
+[t1, y1] = ode15s(@lab_ode,(0:0.01:20),x01);
+[t2, y2] = ode15s(@lab_ode2,(0:0.01:3),x02);
+
 
 figure(1);
 
