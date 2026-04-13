@@ -1,0 +1,4 @@
+erase 
+loadbin C:\Users\vadim\AppData\Local\Temp\arduino\sketches\94FB87C1378CA965C3F512455858D43E\du16_modbus_holding.ino.bin , 0x8000000 
+r 
+q 
