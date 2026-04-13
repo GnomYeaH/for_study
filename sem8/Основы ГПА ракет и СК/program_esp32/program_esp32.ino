@@ -15,6 +15,9 @@
 #define res_meas_2 13
 #define res_meas_3 18
 
+constexpr int cur_loop[4] = {cur_loop_0, cur_loop_1, cur_loop_2, cur_loop_3};
+constexpr int res_meas[4] = {res_meas_0, res_meas_1, res_meas_2, res_meas_3};
+
 uint16_t ModbusData_Holding[26] = 0,
          ModbusData_input[12] = 0;
 
@@ -23,6 +26,7 @@ long  longTimer1 = 0,
       longTimer3 = 0,
       longTimeout = 0;
 
+float data[4];
 
 Adafruit_ADS1015 ads; /* Use this for the 12-bit version */
 Modbus slave(1, Serial, 1);
@@ -40,35 +44,35 @@ void setup() {
     while(1);
   }
 
-  pinMode(cur_loop_0, OUTPUT);
-  pinMode(cur_loop_1, OUTPUT);
-  pinMode(cur_loop_2, OUTPUT);
-  pinMode(cur_loop_3, OUTPUT);
+  for(auto i: cur_loop){
+    pinMode(i, OUTPUT);
+  }
 
-  pinMode(res_meas_0, OUTPUT);
-  pinMode(res_meas_1, OUTPUT);
-  pinMode(res_meas_2, OUTPUT);
-  pinMode(res_meas_3, OUTPUT);
-
+  for(auto i: res_meas){
+    pinMode(i, OUTPUT);
+  }
+  
 }
 
 
 void loop() {
 
-  if ( (millis() - longTimer1) >= defTimeTrigger1 )  {  // цикл опроса датчиков и вычисление
+  if ( (millis() - longTimer1) >= defTimeTrigger1 )  {  // цикл опроса датчиков 
     longTimer1 = millis();
     eventTimeTriger1();
   }
 
-  if ( (millis() - longTimer2) >= defTimeTrigger2 )  {  //  обновление мотбаса
+  if ( (millis() - longTimer2) >= defTimeTrigger2 )  {  //  обновление мотбаса и вычисление
     longTimer2 = millis();
     eventTimeTriger2();
   }
 
-  if ( (millis() - longTimer3) >= defTimeTrigger3 )  {  // цикл отладочных миганий
-    longTimer3 = millis();
-    eventTimeTriger3();
-  }
+  // if ( (millis() - longTimer3) >= defTimeTrigger3 )  {  // цикл отладочных миганий
+  //   longTimer3 = millis();
+  //   eventTimeTriger3();
+  // }
+  
+  Serial.println(ModbusData_input);
 
   slave.poll(ModbusData_Holding, 26, ModbusData_input, 12);
 
