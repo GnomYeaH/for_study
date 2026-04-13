@@ -179,6 +179,7 @@ uint8_t MemsRegWrite (uint8_t IntRegAddress, uint8_t IntIMUAddress, uint8_t IntB
   Wire2.write(IntRegAddress);
   Wire2.write(IntBitForWrite);
   Wire2.endTransmission(true);
+  
 }
 
 void updateFiltValue(float newValueAX, float newValueAY, float newValueAZ, long measureTime)  {
