@@ -1,9 +1,9 @@
-#include <ModbusRtuMod.h>
+#include <ModbusRtu.h>
 #include <Adafruit_ADS1X15.h>
 
-#define defTimeTrigger1 10
-#define defTimeTrigger2 10
-#define defTimeTrigger3 333
+#define defTimeTrigger1 1
+#define defTimeTrigger2 1000
+#define defTimeTrigger3 50
 
 #define cur_loop_0 32
 #define cur_loop_1 33
@@ -15,24 +15,18 @@
 #define res_meas_2 13
 #define res_meas_3 18
 
-#define PinLed 16
-
 constexpr int cur_loop[4] = {cur_loop_0, cur_loop_1, cur_loop_2, cur_loop_3};
 constexpr int res_meas[4] = {res_meas_0, res_meas_1, res_meas_2, res_meas_3};
 
-uint16_t ModbusData_Holding[26];
-uint16_t ModbusData_input[12];
-
-bool BoolLedFlag = false;
-
-// void eventTimeTriger2();
+uint16_t ModbusData_Holding[26] = 0,
+         ModbusData_input[12] = 0;
 
 long  longTimer1 = 0,
       longTimer2 = 0,
       longTimer3 = 0,
       longTimeout = 0;
 
-int data[4];
+float data[4];
 
 Adafruit_ADS1015 ads; /* Use this for the 12-bit version */
 Modbus slave(1, Serial, 1);
@@ -44,12 +38,11 @@ void setup() {
   slave.start();
 
   ads.setGain(GAIN_ONE);        // 1x gain   +/- 4.096V  1 bit = 2mV
-  ads.begin();
 
-  // if (!ads.begin()) {
-  //   Serial.println("Failed to initialize ADS.");
-  //   while(1);
-  // }
+  if (!ads.begin()) {
+    Serial.println("Failed to initialize ADS.");
+    while(1);
+  }
 
   for(auto i: cur_loop){
     pinMode(i, OUTPUT);
@@ -58,8 +51,6 @@ void setup() {
   for(auto i: res_meas){
     pinMode(i, OUTPUT);
   }
-
-  pinMode(PinLed, OUTPUT);
   
 }
 
@@ -76,10 +67,12 @@ void loop() {
     eventTimeTriger2();
   }
 
-  if ( (millis() - longTimer3) >= defTimeTrigger3 )  {  // цикл отладочных миганий
-    longTimer3 = millis();
-    eventTimeTriger3();
-  }
+  // if ( (millis() - longTimer3) >= defTimeTrigger3 )  {  // цикл отладочных миганий
+  //   longTimer3 = millis();
+  //   eventTimeTriger3();
+  // }
+  
+  Serial.println(ModbusData_input);
 
   slave.poll(ModbusData_Holding, 26, ModbusData_input, 12);
 
