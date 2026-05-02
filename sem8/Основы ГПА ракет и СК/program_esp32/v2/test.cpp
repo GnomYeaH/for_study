@@ -17,7 +17,7 @@ void cal_chanel(int chanel) // chanel = {0, 1, 2, 3}
     // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ <-Не имеет же смысл обновлять не использующийся номер?
   }
   if (res_meas_flag) { // Режим шунта
-    float ch_resistance = 4.7/(3.3 - ch_volts);                   // сопротивление [Ом]
+    float ch_resistance = (4700*ch_volts)/(3300 - ch_volts);                   // сопротивление [Ом]
     ModbusData_input[chanel] = int(ch_resistance);                
     ModbusData_input[chanel*2 + 5] = int(ch_resistance * koef_t); // Температура на датчике [°C]
     // ModbusData_input[chanel*2 + 4] = 0;                        // Давление на манометре(не работает в этом режиме)

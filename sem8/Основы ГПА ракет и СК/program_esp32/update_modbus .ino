@@ -73,9 +73,9 @@ void calc_HPA()
 
 void eventTimeTriger2() 
 {
-  // for (uint16_t i = 0; i < 4; i++){
-  //   updateValue_on_chanel(i);
-  // }
+  for (uint16_t i = 0; i < 4; i++){
+    updateValue_on_chanel(i);
+  }
   // Мб лучше в void setup() закинуть?
   if (ModbusData_Holding[2] == 0x01){
     ModbusData_Holding[3] = ModbusData_input[4];  

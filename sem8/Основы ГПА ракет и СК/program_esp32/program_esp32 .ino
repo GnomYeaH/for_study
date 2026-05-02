@@ -47,8 +47,8 @@ void setup() {
 
   slave.start();
 
-  // ads.setGain(GAIN_ONE);        // 1x gain   +/- 4.096V  1 bit = 2mV
-  // ads.begin();
+  ads.setGain(GAIN_ONE);        // 1x gain   +/- 4.096V  1 bit = 2mV
+  ads.begin();
 
   for(uint16_t i = 0; i < 4; i++){
     pinMode(cur_loop[i], OUTPUT);
