@@ -1,110 +1,113 @@
-NX Nastran V10.0 (AMD64 Family 26 Model 96 Stepping 0 Windows 8  ) Control File:
+NX Nastran V10.0 (AMD64 Family 25 Model 97 Stepping 2 Windows 8  ) Control File:
 -------------------------------------------------------------------
-Nastran BUFFSIZE=32769 $(c:/program files/siemens/nx 10.0/nxnastran/conf/nast10.rcf[1])
-Nastran BUFFPOOL=20.0X $(c:/program files/siemens/nx 10.0/nxnastran/conf/nast10.rcf[4])
-Nastran DIAGA=128 DIAGB=0 $(c:/program files/siemens/nx 10.0/nxnastran/conf/nast10.rcf[8])
+Nastran BUFFSIZE=32769 $(d:/programs/nx/nxnastran/conf/nast10.rcf[1])
+Nastran BUFFPOOL=20.0X $(d:/programs/nx/nxnastran/conf/nast10.rcf[4])
+Nastran DIAGA=128 DIAGB=0 $(d:/programs/nx/nxnastran/conf/nast10.rcf[8])
 Nastran SYSTEM(442)=2 $(command line[5])
-Nastran REAL=2027683840 $(program default)
-JID='C:\microlevel\plate_sim1-solution_1.dat'
+Nastran REAL=2147483647 $(program default)
+JID='E:\BMSTU\for_study\sem7\NX\seminar\microlevel\plate_sim1-solution_1.dat'
 OUT='./plate_sim1-solution_1'
-MEM=913165312
-MACH='AMD64 Family 26 Model 96 Stepping 0'
+MEM=1909555200
+MACH='AMD64 Family 25 Model 97 Stepping 2'
 OPER='Windows 8'
 OSV=' '
-MODEL='AMD Ryzen AI 5 340 w/ Radeon 840M (gnom_netbook)'
+MODEL='AMD Ryzen 5 7500F 6-Core Processor (DESKTOP-S1EMORC)'
 CONFIG=8666
 NPROC=12
-symbol=DELDIR='c:/program files/siemens/nx 10.0/nxnastran/nxn10/nast/del' $(program default)
-symbol=DEMODIR='c:/program files/siemens/nx 10.0/nxnastran/nxn10/nast/demo' $(program default)
-symbol=SSSALTERDIR='c:/program files/siemens/nx 10.0/nxnastran/nxn10/nast/misc/sssalter' $(program default)
-symbol=TPLDIR='c:/program files/siemens/nx 10.0/nxnastran/nxn10/nast/tpl' $(program default)
-SDIR='c:/users/gnomy/appdata/local/temp/plate_sim1-solution_1.T21552_57'
-DBS='c:/users/gnomy/appdata/local/temp/plate_sim1-solution_1.T21552_57'
+symbol=DELDIR='d:/programs/nx/nxnastran/nxn10/nast/del' $(program default)
+symbol=DEMODIR='d:/programs/nx/nxnastran/nxn10/nast/demo' $(program default)
+symbol=SSSALTERDIR='d:/programs/nx/nxnastran/nxn10/nast/misc/sssalter' $(program default)
+symbol=TPLDIR='d:/programs/nx/nxnastran/nxn10/nast/tpl' $(program default)
+SDIR='c:/users/gnomy~1.des/appdata/local/temp/plate_sim1-solution_1.T17888_25'
+DBS='c:/users/gnomy~1.des/appdata/local/temp/plate_sim1-solution_1.T17888_25'
 SCR=yes
 SMEM=20.0X
-NEWDEL='c:/program files/siemens/nx 10.0/nxnastran/nxn10/em64tntl/SSS'
+NEWDEL='d:/programs/nx/nxnastran/nxn10/em64tntl/SSS'
 DEL='NXNDEF'
-AUTH='28000@gnom_netbook'
+AUTH='28000@desktop-s1emorc'
 AUTHQUE=0
-MSGCAT='c:/program files/siemens/nx 10.0/nxnastran/nxn10/em64tntl/analysis.msg'
+MSGCAT='d:/programs/nx/nxnastran/nxn10/em64tntl/analysis.msg'
 MSGDEST='f06'
 PROG=bundle
-NEWS='c:/program files/siemens/nx 10.0/nxnastran/nxn10/nast/news.txt'
+NEWS='d:/programs/nx/nxnastran/nxn10/nast/news.txt'
 -------------------------------------------------------------------
-NXN_ISHELLPATH=C:\Program Files\Siemens\NX 10.0\nxnastran\bin
+NXN_ISHELLPATH=D:\Programs\NX\nxnastran\bin
 NXN_JIDPATH=
-PATH=c:/program files/siemens/nx 10.0/nxnastran/nxn10/em64tntl;c:/program files/siemens/nx 10.0/nxnastran/nxn10/em64tntl/impi/bin;c:/program files/siemens/nx 10.0/nxnastran/nxn10/em64tntl/monitor;C:\Program Files\Siemens\NX 10.0\ugii;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2023a\runtime\win64;C:\Program Files\MATLAB\R2023a\bin;C:\Users\gnomy\AppData\Local\Microsoft\WindowsApps;C:\Users\gnomy\AppData\Local\GitHubDesktop\bin;C:\Users\gnomy\AppData\Local\Programs\Microsoft VS Code\bin
+PATH=d:/programs/nx/nxnastran/nxn10/em64tntl;d:/programs/nx/nxnastran/nxn10/em64tntl/impi/bin;d:/programs/nx/nxnastran/nxn10/em64tntl/monitor;D:\Programs\NX\ugii;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Programs\Matlab\runtime\win64;D:\Programs\Matlab\bin;C:\Program Files\VSCodium\bin;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\AmneziaWG\;C:\Program Files\Git LFS;C:\Program Files\Git\cmd;C:\Users\gnomy.DESKTOP-S1EMORC\AppData\Local\Programs\Python\Launcher\;C:\Users\gnomy.DESKTOP-S1EMORC\AppData\Local\Microsoft\WindowsApps;C:\Users\gnomy.DESKTOP-S1EMORC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gnomy.DESKTOP-S1EMORC\AppData\Local\GitHubDesktop\bin;E:\Programs\msys\ucrt64\bin;
 Command Line: plate_sim1-solution_1.dat prog=bundle old=no scratch=yes sys442=2
-Current Dir: C:\microlevel
-Executable:  c:/program files/siemens/nx 10.0/nxnastran/nxn10/em64tntl/analysis.exe
+Current Dir: E:\BMSTU\for_study\sem7\NX\seminar\microlevel
+Executable:  d:/programs/nx/nxnastran/nxn10/em64tntl/analysis.exe
 NXN_MSG:     stderr
 FPE:         no
 -------------------------------------------------------------------
 Current resource limits:
- Physical memory:                    15482 MB
- Physical memory available:           6998 MB
- Paging file size:                   21821 MB
- Paging file size available:          8704 MB
+ Physical memory:                    32375 MB
+ Physical memory available:          17673 MB
+ Paging file size:                   37239 MB
+ Paging file size available:         16084 MB
  Virtual memory:                 134217727 MB
- Virtual memory available:       134213567 MB
+ Virtual memory available:       134213570 MB
 -------------------------------------------------------------------
 System configuration:
- Hostname:         gnom_netbook
+ Hostname:         DESKTOP-S1EMORC
  Architecture:     em64tnt
- Platform:         AMD64 Family 26 Model 96 Stepping 0 Windows 8  
- Model:            AMD Ryzen AI 5 340 w/ Radeon 840M
- Clock freq.:      1996 MHz
+ Platform:         AMD64 Family 25 Model 97 Stepping 2 Windows 8  
+ Model:            AMD Ryzen 5 7500F 6-Core Processor
+ Clock freq.:      3693 MHz
  Number of CPUs:   12
  Executable:       standard
  Raw model ID:     8666
  Config number:    8666
- Physical memory:  15482 MB
- Virtual memory:   21821 MB
+ Physical memory:  32375 MB
+ Virtual memory:   37239 MB
  Numeric format:   64-bit little-endian IEEE.
  Bytes per word:   8
  Disk block size:  512 bytes (64 words)
- Remote shell cmd: "c:/program files/siemens/nx 10.0/nxnastran/nxn10/em64tntl/edsrmtcmd.exe" (Windows, UNIX)
+ Remote shell cmd: "d:/programs/nx/nxnastran/nxn10/em64tntl/edsrmtcmd.exe" (Windows, UNIX)
 -------------------------------------------------------------------
-NX Nastran started  Fri Nov 28 14:33:57 R2( 2025
- 14:33:57  Beginning Analysis
+NX Nastran started  Tue May  5 22:37:25 R2( 2026
+ 22:37:26  Beginning Analysis
 
- 14:33:57  NX NASTRAN Authorization Information - System Attributes
- 14:33:57  --------------------------------------------------------
- 14:33:57  Model: AMD Ryzen AI 5 340 w/ Radeon 840
- 14:33:57  Machine: AMD64 Family 26 Model 96 Steppin
- 14:33:57  OS: Windows 8
- 14:33:57  Version:
- 14:33:57  License File(s): 28000@gnom_netbook
-
-
- 14:33:57  NX NASTRAN Licensing Information
- 14:33:57  -------------------------------
- 14:33:57  Sold To ID:            1002010 - *SolidSQUAD*
- 14:33:57  Webkey Access Code:    5555555555
- 14:33:57  License File Issuer:   UGS
+ 22:37:26  NX NASTRAN Authorization Information - System Attributes
+ 22:37:26  --------------------------------------------------------
+ 22:37:26  Model: AMD Ryzen 5 7500F 6-Core Process
+ 22:37:26  Machine: AMD64 Family 25 Model 97 Steppin
+ 22:37:26  OS: Windows 8
+ 22:37:26  Version:
+ 22:37:26  License File(s): 28000@desktop-s1emorc
 
 
- 14:33:57  NX NASTRAN Authorization Information - Checkout Successful
- 14:33:57  ----------------------------------------------------------
- 14:33:57  License for module NX Nastran Basic - NX Desktop (Bundle)  checked out successfully
+ 22:37:26  NX NASTRAN Licensing Information
+ 22:37:26  -------------------------------
+ 22:37:26  Sold To ID:            1002010 - *SolidSQUAD*
+ 22:37:26  Webkey Access Code:    5555555555
+ 22:37:26  License File Issuer:   UGS
 
-Starting viewer with UGII_MONITOR_DIR set to 'C:\Program Files\Siemens\NX 10.0\nxcae_extras\tmg\exe'
-Starting monitor viewer at C:\Program Files\Siemens\NX 10.0\nxcae_extras\tmg\exe/xcsmon_viewer.exe
-Loading Shared Library C:\Program Files\Siemens\NX 10.0\nxcae_extras\tmg\exe\mayamoncomm.dll
- 14:34:00  Analysis started.
- 14:34:00  Geometry access/verification to CAD part initiated (if needed).
- 14:34:00  Geometry access/verification to CAD part successfully completed (if needed).
- 14:34:00  Finite element model generation started.
- 14:34:00  Finite element model generated 31428 degrees of freedom.
- 14:34:00  Finite element model generation successfully completed.
- 14:34:00  Application of Loads and Boundary Conditions to the finite element model started.
- 14:34:00  Application of Loads and Boundary Conditions to the finite element model successfully completed.
- 14:34:01  MAIN: "Illegal instruction" (C000001D) exception encountered.
- 14:34:01  MAIN: For reference, A(MAINAL)   =     7FF6938E1090, A(/SYSTEM/) =     7FF6966946E0
- 14:34:01  MAIN:                A(/OPENZZ/) =        18014F040
- 14:34:01  MAIN: Exception occurred at address 00007FF8F98E3E72.
- 14:34:01  MAIN: Context Flags 0010005F
-Real:        6.219 seconds ( 0:00:06.219)
-User:        4.906 seconds ( 0:00:04.906)
-Sys:         0.750 seconds ( 0:00:00.750)
-NX Nastran finished Fri Nov 28 14:34:04 R2( 2025
+
+ 22:37:26  NX NASTRAN Authorization Information - Checkout Successful
+ 22:37:26  ----------------------------------------------------------
+ 22:37:26  License for module NX Nastran Basic - NX Desktop (Bundle)  checked out successfully
+
+Starting viewer with UGII_TMG_DIR set to 'D:\Programs\NX\nxcae_extras\tmg/exe'
+Starting monitor viewer at D:\Programs\NX\nxcae_extras\tmg/exe/xcsmon_viewer.exe
+Loading Shared Library D:\Programs\NX\nxcae_extras\tmg\exe\mayamoncomm.dll
+ 22:37:29  Analysis started.
+ 22:37:29  Geometry access/verification to CAD part initiated (if needed).
+ 22:37:29  Geometry access/verification to CAD part successfully completed (if needed).
+ 22:37:29  Finite element model generation started.
+ 22:37:29  Finite element model generated 31428 degrees of freedom.
+ 22:37:29  Finite element model generation successfully completed.
+ 22:37:29  Application of Loads and Boundary Conditions to the finite element model started.
+ 22:37:29  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 22:37:30  MAIN: "Illegal instruction" (C000001D) exception encountered.
+ 22:37:30  MAIN: For reference, A(MAINAL)   =     7FF676111090, A(/SYSTEM/) =     7FF678EC46E0
+ 22:37:30  MAIN:                A(/OPENZZ/) =        180144040
+ 22:37:30  MAIN: Exception occurred at address 00007FF8EC023E72.
+ 22:37:30  MAIN: Context Flags 0010005F
+ 22:37:32  NSEXIT: EXIT(20)
+ 22:37:32  Analysis complete  -20
+20
+Real:        5.462 seconds ( 0:00:05.462)
+User:        4.734 seconds ( 0:00:04.734)
+Sys:         0.156 seconds ( 0:00:00.156)
+NX Nastran finished Tue May  5 22:37:32 R2( 2026
