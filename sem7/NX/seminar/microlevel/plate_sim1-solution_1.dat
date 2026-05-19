@@ -3,16 +3,16 @@ $*
 $*                    NX v10.0.0.24 TRANSLATOR
 $*                    FOR NX NASTRAN VERSION 10.0
 $*
-$*             FEM FILE: C:\microlevel\plate_fem1.fem
-$*             SIM FILE: C:\microlevel\plate_sim1.sim
+$*             FEM FILE: E:\BMSTU\for_study\sem7\NX\seminar\microlevel\plate_fem1.fem
+$*             SIM FILE: E:\BMSTU\for_study\sem7\NX\seminar\microlevel\plate_sim1.sim
 $*        ANALYSIS TYPE: Structural
 $*        SOLUTION NAME: Solution 1
 $*        SOLUTION TYPE: SOL 101 Linear Statics - Global Constraints
 $*
 $*    SOLVER INPUT FILE: plate_sim1-solution_1.dat
-$*        CREATION DATE: 28-Nov-2025
-$*        CREATION TIME: 14:33:57
-$*             HOSTNAME: gnom_netbook
+$*        CREATION DATE:  5-May-2026
+$*        CREATION TIME: 22:37:25
+$*             HOSTNAME: DESKTOP-S1EMORC
 $*      NASTRAN LICENSE: Desktop Bundle
 $*
 $*                UNITS: mm (milli-newton)
@@ -16961,4 +16961,4 @@ FORCE          2    5227       0 1777.12  0.0000  0.0000-1.00000
 FORCE          2    5228       0 3567.69  0.0000  0.0000-1.00000
 FORCE          2    5229       0 3567.76  0.0000  0.0000-1.00000
 FORCE          2    5230       0 1777.12  0.0000  0.0000-1.00000
-ENDDATA 83b8f2f0
+ENDDATA a3e7c5ce
