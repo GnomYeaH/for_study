@@ -1,4 +1,4 @@
-503782772682589
+509154678765880
 KICAD7_B
 Bosch_BMP280(LGA-8pin)_2x2.5x0.95mm_DaSh
 
@@ -1933,22 +1933,43 @@ MTR_KICAD_K
 15
 MTR_KICAD_RLC
 Конденсатор_SMD_0603_IEC_61188-5-2(ур.2)
-
-
+MTR custom: body 1.6x0.8 mm, pad 1.05x1.1 mm pitch 1.55 mm; symmetric, hand-solder friendly
+smd
+0
+2
+2
+MTR_KICAD_RLC
+Конденсатор_SMD_1812_IEC_61188-5-2(ур.2)
+MTR custom: body 4.5x3.2 mm, pad 1.55x3.55 mm pitch 4.1 mm; symmetric, hand-solder friendly
+smd
+0
+2
+2
+MTR_KICAD_RLC
+Конденсатор_SMD_2220_IEC_61188-5-2(ур.2)
+MTR custom: body 5.7x5.0 mm, pad 1.95x5.55 mm pitch 5.1 mm; symmetric, hand-solder friendly
+smd
+0
+2
+2
+MTR_KICAD_RLC
+Конденсатор_SMD_2225_IEC_61188-5-2(ур.2)
+MTR custom: body 5.72x6.35 mm, pad 1.775x6.75 mm pitch 5.075 mm; symmetric, hand-solder friendly
+smd
 0
 2
 2
 MTR_KICAD_RLC
 Резистор_SMD_0805_IEC_61188-5-2(ур.2)
-
-
+MTR custom: body 2.0x1.25 mm, pad 1.175x1.55 mm pitch 1.825 mm; symmetric, hand-solder friendly
+smd
 0
 2
 2
 MTR_KICAD_RLC
 Резистор_SMD_2512_IEC_61188-5-2(ур.2)
-
-
+MTR custom: body 6.3x3.2 mm, pad 1.375x3.5 mm pitch 5.925 mm; symmetric, hand-solder friendly
+smd
 0
 2
 2
