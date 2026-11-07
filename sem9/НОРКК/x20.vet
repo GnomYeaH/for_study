@@ -1,0 +1,18 @@
+[Main]
+Vector=20 0 0; Вектор скорости потока
+Normal=0 0 1; Нормаль к поверхности Земли
+Null=0 0 0; Ноль модели (поверхность Земли)
+Ro=1,6
+K_dyn=2
+Cx=1,2
+Use_K_H=1
+Use_Panels=0
+Use_Moment=0
+CountLinesComment=0
+SaveTextResult=0
+LoadNapor=0
+[K_H]
+Column=6
+Row=2
+K_H_String0=0 10 20 30 40 50 ;
+K_H_String1=1 1 1,22 1,37 1,48 1,58 ;
